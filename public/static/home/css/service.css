@@ -1,0 +1,19 @@
+.life_bg{position:fixed; z-index: -9999;width: 100%; height: 100%; left: 0; top:0;}
+.mix_main{width: 18.2rem;height: 7.82rem;position: relative;top:1.74rem;margin: 0 auto}
+.lright img{float: right;width:15.66rem;box-sizing: border-box }
+aside{width: 2.54rem;box-sizing: border-box;height: 100%; }
+
+/*二级导航*/
+.two_nav{position: absolute;width:100%;left: 0;height:.68rem;top:.94rem;}
+.two_nav ul{display: table;margin:.2rem auto;}
+.two_nav ul li{border-left:.02rem solid rgba(255,255,255,.35);text-align:center;float:left;width: 2rem;height: .51rem;line-height: .45rem;}
+.two_nav ul li:last-child{border-right:.02rem solid rgba(255,255,255,.35)}
+.two_nav ul li a{color: #FFFFFF;font-size: .19rem;cursor: pointer}
+/*滚动条+滤色*/
+aside ul li,aside ul li a img,.current{width:2.54rem;height: 1.95rem}
+.left_bg_pos_first{z-index: -99;position: absolute}
+.left_bg_pos_secend{mix-blend-mode: screen;z-index: -99;}
+.meng{background:rgba(0,0,0,.5);}
+.two_li a{color: #ffffff}
+aside { position:relative;  width:2.54rem; height:7.8rem; overflow: hidden;}
+aside ul{width:2.54rem;}

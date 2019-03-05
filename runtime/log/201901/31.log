@@ -1,0 +1,2118 @@
+---------------------------------------------------------------
+[ 2019-01-31T09:54:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] xq_qiaoce.com/ [运行时间：3.752540s][吞吐率：0.27req/s] [内存消耗：2,882.93kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.087369s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\qiaoce\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.051850s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.451857s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.898597s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.168325s ]
+---------------------------------------------------------------
+[ 2019-01-31T09:55:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：0.627728s][吞吐率：1.59req/s] [内存消耗：2,908.98kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.069866s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.012454s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072175s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.091485s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.053358s ]
+---------------------------------------------------------------
+[ 2019-01-31T09:55:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.905010s][吞吐率：1.10req/s] [内存消耗：3,346.91kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.042780s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001920s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.090829s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.034530s ]
+---------------------------------------------------------------
+[ 2019-01-31T09:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：1.046740s][吞吐率：0.96req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006983s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T09:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.900590s][吞吐率：1.11req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.012480s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T09:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.833963s][吞吐率：1.20req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.072439s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T09:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.670089s][吞吐率：1.49req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.010234s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:26:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：1.721380s][吞吐率：0.58req/s] [内存消耗：3,086.45kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.037441s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.008581s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.517827s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.211751s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.043206s ]
+---------------------------------------------------------------
+[ 2019-01-31T10:26:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.482740s][吞吐率：2.07req/s] [内存消耗：3,347.18kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.016950s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011160s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.084643s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.009313s ]
+---------------------------------------------------------------
+[ 2019-01-31T10:26:40+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.732313s][吞吐率：1.37req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007330s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:26:40+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：0.701062s][吞吐率：1.43req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006396s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:26:40+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.714734s][吞吐率：1.40req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004011s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:26:40+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.256851s][吞吐率：3.89req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.054035s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:34:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：0.413380s][吞吐率：2.42req/s] [内存消耗：3,086.57kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004383s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.012921s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063515s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.099500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000820s ]
+---------------------------------------------------------------
+[ 2019-01-31T10:34:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.286104s][吞吐率：3.50req/s] [内存消耗：3,346.91kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.008737s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008815s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.083246s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2019-01-31T10:34:52+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.214591s][吞吐率：4.66req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007065s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:34:52+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.202040s][吞吐率：4.95req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007274s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:34:52+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：0.196581s][吞吐率：5.09req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007460s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:34:52+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.218677s][吞吐率：4.57req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006564s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:35:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：0.357732s][吞吐率：2.80req/s] [内存消耗：3,086.66kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007969s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.006057s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.049543s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-01-31T10:35:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.275881s][吞吐率：3.62req/s] [内存消耗：3,346.91kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.003783s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001317s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.083895s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2019-01-31T10:35:21+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.177970s][吞吐率：5.62req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006974s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:35:21+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.220861s][吞吐率：4.53req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.005896s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:35:21+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：0.162467s][吞吐率：6.16req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.005841s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T10:35:21+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.194919s][吞吐率：5.13req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006319s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：2.734982s][吞吐率：0.37req/s] [内存消耗：3,087.13kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.112331s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.031692s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.586268s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.179093s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.063320s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:30:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.749880s][吞吐率：1.33req/s] [内存消耗：3,347.18kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006784s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030120s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.082102s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.011481s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:30:14+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.809369s][吞吐率：1.24req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.149715s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:14+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.407551s][吞吐率：2.45req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004962s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:14+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：0.653319s][吞吐率：1.53req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.005776s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:14+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.520214s][吞吐率：1.92req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.011231s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.314533s][吞吐率：3.18req/s] [内存消耗：2,060.80kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.005352s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.127354s][吞吐率：7.85req/s] [内存消耗：2,060.80kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004157s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：0.236119s][吞吐率：4.24req/s] [内存消耗：3,087.12kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.013686s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.005832s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029735s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.055480s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.281821s][吞吐率：3.55req/s] [内存消耗：3,347.18kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006744s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001433s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.069328s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.252148s][吞吐率：3.97req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.009835s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：0.253704s][吞吐率：3.94req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.009250s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.300218s][吞吐率：3.33req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.008368s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.280432s][吞吐率：3.57req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.009473s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:31:00+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.183931s][吞吐率：5.44req/s] [内存消耗：2,060.80kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.003730s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:35:29+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.107774s][吞吐率：9.28req/s] [内存消耗：2,024.46kb] [文件加载：47]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.005105s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:35:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.090554s][吞吐率：11.04req/s] [内存消耗：2,024.46kb] [文件加载：47]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.003510s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:35:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：0.266905s][吞吐率：3.75req/s] [内存消耗：3,087.53kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.003940s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.006453s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054631s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.064828s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.281213s][吞吐率：3.56req/s] [内存消耗：3,347.79kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007069s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008919s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.056962s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.011560s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：0.181613s][吞吐率：5.51req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007818s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.199805s][吞吐率：5.00req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.005879s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.239957s][吞吐率：4.17req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.013439s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.222571s][吞吐率：4.49req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006025s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:35:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.096023s][吞吐率：10.41req/s] [内存消耗：2,024.46kb] [文件加载：47]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006453s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:36:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.128663s][吞吐率：7.77req/s] [内存消耗：2,025.05kb] [文件加载：47]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004690s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:36:32+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.120955s][吞吐率：8.27req/s] [内存消耗：2,025.38kb] [文件加载：47]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004616s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:36:33+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.101786s][吞吐率：9.82req/s] [内存消耗：2,025.38kb] [文件加载：47]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004004s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:36:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.095568s][吞吐率：10.46req/s] [内存消耗：2,025.38kb] [文件加载：47]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.003868s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:36:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.086712s][吞吐率：11.53req/s] [内存消耗：2,025.38kb] [文件加载：47]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.003834s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.825375s][吞吐率：1.21req/s] [内存消耗：2,921.01kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007141s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001766s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.054529s ]
+[ sql ] [ SQL ] DELETE FROM `article`    WHERE  `id` = 111 [ RunTime:0.467544s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:37:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：0.188645s][吞吐率：5.30req/s] [内存消耗：2,911.59kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.003995s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.011460s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001715s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.045674s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:37:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.412706s][吞吐率：2.42req/s] [内存消耗：3,349.48kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.014470s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044257s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.079663s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:37:20+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.229689s][吞吐率：4.35req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.008862s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:20+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.243736s][吞吐率：4.10req/s] [内存消耗：1,692.55kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.019669s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:20+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/6dac5df656dac5df65f03ef4.jpeg
+[ info ] xq_qiaoce.com/upload/content/6dac5df656dac5df65f03ef4.jpeg [运行时间：0.201145s][吞吐率：4.97req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006659s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '6dac5df656dac5df65f03ef4.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:20+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.250187s][吞吐率：4.00req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.035144s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:20+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：0.293324s][吞吐率：3.41req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.008907s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/articledel.html
+[ info ] xq_qiaoce.com/admin/article/articledel.html [运行时间：0.241508s][吞吐率：4.14req/s] [内存消耗：2,921.01kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004183s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'articledel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '109',
+)
+[ info ] [ RUN ] app\admin\controller\Article->articleDel[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010459s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.043264s ]
+[ sql ] [ SQL ] DELETE FROM `article`    WHERE  `id` = 109 [ RunTime:0.043182s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] xq_qiaoce.com/admin/article/index.html [运行时间：0.204423s][吞吐率：4.89req/s] [内存消耗：2,911.59kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004512s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/admin\view\article\article.html [ array (
+  0 => 'count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.010028s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001629s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.053464s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/myselect.html?sel=&sel1=&p=1
+[ info ] xq_qiaoce.com/admin/article/myselect.html?sel=&sel1=&p=1 [运行时间：0.226903s][吞吐率：4.41req/s] [内存消耗：3,349.77kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006053s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'myselect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'sel' => '',
+  'sel1' => '',
+  'p' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Article->mySelect[ C:\wamp\www\qiaoce\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001222s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.043804s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`thumb_img`,`classify`,`status`,`time` FROM `article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-01-31T17:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg
+[ info ] xq_qiaoce.com/upload/content/7da2cc7cd7da2cc7cd7c15e0.jpeg [运行时间：0.205788s][吞吐率：4.86req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007059s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '7da2cc7cd7da2cc7cd7c15e0.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/6dac5df656dac5df65f03ef4.jpeg
+[ info ] xq_qiaoce.com/upload/content/6dac5df656dac5df65f03ef4.jpeg [运行时间：0.188715s][吞吐率：5.30req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007070s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '6dac5df656dac5df65f03ef4.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/5bd6d44b65bd6d44b609d01w.jpg
+[ info ] xq_qiaoce.com/upload/content/5bd6d44b65bd6d44b609d01w.jpg [运行时间：0.277458s][吞吐率：3.60req/s] [内存消耗：1,692.38kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007231s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '5bd6d44b65bd6d44b609d01w.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/a33cb87e4a33cb87e48e2104.jpeg
+[ info ] xq_qiaoce.com/upload/content/a33cb87e4a33cb87e48e2104.jpeg [运行时间：0.220891s][吞吐率：4.53req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.008395s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'a33cb87e4a33cb87e48e2104.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:28+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/1336e10341336e1034af90f7.jpeg
+[ info ] xq_qiaoce.com/upload/content/1336e10341336e1034af90f7.jpeg [运行时间：0.293615s][吞吐率：3.41req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.032226s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => '1336e10341336e1034af90f7.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-31T17:37:28+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/content/d5bb18b5fd5bb18b5ff6b58f.jpeg
+[ info ] xq_qiaoce.com/upload/content/d5bb18b5fd5bb18b5ff6b58f.jpeg [运行时间：0.185001s][吞吐率：5.41req/s] [内存消耗：1,692.35kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006181s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'content',
+    2 => 'd5bb18b5fd5bb18b5ff6b58f.jpeg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xq_qiaoce.com/admin/article/index.html',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

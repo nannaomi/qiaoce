@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="国安新桥（北京）影视传媒投资有限公司，是中信国安集团布局影视产业、打造国际化电影工业体系的
+    重要举措，是面向国际影视产业的重要平台。公司自2014年建立以来，作为国安新桥影视特效基地的投资运营主体，一直致力于打造国际化的
+    电影特效及影视后期制作产业核心力量。基地不仅配备了国际一流的全数字、网络化、集群化的电影特效制作硬件以及影视后期音视频制作系
+    统等，而且凭借丰富的国内外行业资源，与影视各界人士构建多方合作。">
+    <meta name="keywords" content="影棚租赁,数字棚,绿幕棚,动捕棚,后期制作,影视培训,影视特效,中国特效公司,视效,视效制作,
+    特效,特效制作,特效公司,特效解析,电影后期,CG,CG制作,三维制作，三维，数字制作,国内特效,外景租赁"/>
+    <link rel="shortcut icon" type="image/x-icon" href="__HOMES__/images/ico.ico" media="screen">
+    <title>中信国安新桥影视基地——新闻详情</title>
+    <link rel="stylesheet" type="text/css" href="__HOMES__/css/comm.css"/>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js "></script>
+    <script  src="__HOMES__/js/comm.js "></script>
+</head>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    document.write("<div style='position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: 100%; padding-top: 200px;  background-color: #fff'><P  style='font-size: 16px; text-align: center'>您正在使用 Internet Explorer 低版本，在本页面的显示效果可能有差异，建议您升级到IE9及以上版本或使用其他浏览器</P></div>")
+</script>
+<![endif]-->
+<script>
+    document.documentElement.style.fontSize=document.documentElement.clientWidth / 1920 * 100 + 'px';
+</script>
+</head>
+<style>
+    body,html{font-size: .20rem}
+    .life_bg{position:fixed; z-index: -9999;width: 100%; height: 100%; left: 0; top:0;}
+   article{width: 14rem;height: auto;margin: 1.27rem auto .54rem -7rem;position: relative;left: 50%;float: left;}
+    article h2{font-size: .32rem;color: #c5161b;text-align: center;margin-bottom: .42rem}
+     p,h4,#prev,#next{color: #000;}
+    .other_new{width: 100%;height:2.48rem;background-color:#f2f1ef;position: relative;float: left; }
+    footer{position: relative;float: left;margin-top: .37rem}
+    .prev_new{width: 6.8rem;height: auto;float: left;}
+    .next_new{width: 6.8rem;height: auto;float: right;}
+    #prev,#next{margin:.26rem auto .38rem auto;font-size:.16rem;display: block }
+    #next{text-align: right }
+    .chan_time{color: #6e6c6d;font-size: .14rem}
+    .intro{margin-top: .15rem}
+    #prev span,#next span{color: #cc3336;font-size:.16rem }
+    .thumb_img{width:2.01rem;height: 1.35rem;float: left;overflow: hidden}
+    .other{width:14rem;height: auto;margin: 0 auto;}
+    .other_new .other p,h4{float: left;width: 4.43rem;padding-left: .24rem;}
+    .other_new .other p{font-size: .11rem;}
+    .other_new .other h4{margin-top: .15rem;font-size: .17rem;}
+    .fix_nav{width: .5rem;height: 4.02rem;border-top: 2px solid #c12227;position: fixed;right: 0;top:50%;margin-top:-2.01rem;}
+    .fix_nav a{display: block;width: .5rem;font-size: .19rem;border-bottom: 2px solid #c12227;padding-top: .5rem;
+        padding-bottom: .5rem;
+     text-align: center;}
+    .fix_nav a:hover{color: #c72127}
+
+</style>
+<body>
+{include file="public/header" /}
+<div class="life_bg" ><img src="__HOMES__/images/newsbg.jpg" width="100%" height="100%"/></div>
+<article >
+    <h2>{$detail.title}</h2>
+    <p>{$detail.cont}</p>
+</article>
+<div class="fix_nav">
+  <a href="{:url('more_news',array('id'=>0))}">基<br/>地<br/>资<br/>讯 </a>
+    <a href="{:url('more_news',array('id'=>1))}">行<br/>业<br/>资<br/>讯 </a>
+</div>
+<div class="other_new" >
+    <div class="other">
+        <div class="prev_new">
+            <a href="javascript:;" id="prev" class="chance"><span>《</span> 上一篇</a>
+           <div class="cont">
+                {if condition=" $prev != '' "}
+                <div class="thumb_img"><img src="__IMG__/content/{$prev.img_time}/{$prev.thumb_img}"/></div>
+                <p class="chan_time">{$prev.time}</p>
+                <a href="{:url('details',array('id'=>$prev.id))} "><h4>{$prev.title}</h4></a>
+                <p class="intro">{$prev.intro}</p>
+                {else/}
+                 <div >已经没有了!</div>
+                {/if}
+           </div>
+        </div>
+        <div class="next_new" >
+            <a href="javascript:;" id="next" class="chance"> 下一篇<span> 》</span></a>
+            <div class="next_cont" >
+            {if condition="$next != ''"}
+                <div class="thumb_img"><img src="__IMG__/content/{$next.img_time}/{$next.thumb_img}"/></div>
+                <p class="chan_time">{$next.time}</p>
+                <a href="{:url('details',array('id'=>$next.id))} "><h4>{$next.title}</h4></a>
+                <p class="intro">{$next.intro}</p>
+            {else/}
+            <div style="float: right">更多新闻 敬请期待！</div>
+            {/if}
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+{include file="public/footer" /}
+
+</body>
+   <script>
+//       0 代表此为基地资讯分类
+       $(document).ready(function(){
+           $(".chance").click(function(){
+               var up_down=$(this).text();
+               if(up_down=="《 上一篇"){
+                   var str=$(".cont a").attr("href").split(".");
+               }else {
+                   var str=$(".next_cont a").attr("href").split(".");
+               }
+               var index=str[0].substring(str[0].lastIndexOf("\/") + 1, str[0].length);
+               change(index,0,up_down);
+           });
+           function change(e,i,t) {
+               $.ajax({
+                   type: "post",
+                   url: '{:url("change")}',
+                   data: {id: e, cate: i, text: t},
+                   dataType: "json",
+                   success: function (res) {
+                       console.log(res);
+                       if (res != '') {
+                           var list = '<div class="thumb_img">' +
+                               '<img src="__IMG__/content/' + res.img_time + '/' + res.thumb_img + '"/>' +
+                               '</div>' +
+                               '<p class="chan_time">' + res.time + '</p>' +
+                               '<a href="details/id/' + res.id + '.html"><h4>' + res.title + '</h4></a>' +
+                               '<p class="intro">' + res.intro + '</p>';
+                       } else {
+                           var list = '<div>已经没有了！</div>';
+                       }
+                       if(t=="《 上一篇"){
+                           $('.cont').html(list);
+                       }else {
+                           $('.next_cont').html(list);
+                       }
+                   }
+               })
+           }
+       });
+
+
+
+
+
+
+   </script>
+
+</html>

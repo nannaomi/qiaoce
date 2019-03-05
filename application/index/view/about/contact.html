@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="国安新桥（北京）影视传媒投资有限公司，是中信国安集团布局影视产业、打造国际化电影工业体系的
+    重要举措，是面向国际影视产业的重要平台。公司自2014年建立以来，作为国安新桥影视特效基地的投资运营主体，一直致力于打造国际化的
+    电影特效及影视后期制作产业核心力量。基地不仅配备了国际一流的全数字、网络化、集群化的电影特效制作硬件以及影视后期音视频制作系
+    统等，而且凭借丰富的国内外行业资源，与影视各界人士构建多方合作。">
+    <meta name="keywords" content="影棚租赁,数字棚,绿幕棚,动捕棚,后期制作,影视培训,影视特效,中国特效公司,视效,视效制作,
+    特效,特效制作,特效公司,特效解析,电影后期,CG,CG制作,三维制作，三维，数字制作,国内特效,外景租赁"/> 
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="shortcut icon" type="image/x-icon" href="__HOMES__/images/ico.ico" media="screen">
+    <title>中信国安新桥影视基地-联系我们</title>
+    <link rel="stylesheet" type="text/css" href="__HOMES__/css/comm.css"/>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js "></script>
+    <!--<script  src="__HOMES__/js/comm.js "></script>-->
+</head>
+
+<script>
+    document.documentElement.style.fontSize=document.documentElement.clientWidth / 1920 * 100 + 'px';
+    var str=location.href;
+    var suffix = str.substr(str.lastIndexOf("/")+1);
+    var link=suffix.substr(0,suffix.lastIndexOf("."));
+    $.ajax({
+        type:"post",
+        url:'{:url("service")}',
+        data:{link:link},
+        dataType:"json",
+        success:function (res){
+            console.log(res);
+            var lists=' ';
+            $.each(res,function () {
+                lists+='<li class="two_li">' +
+                    '<a href="javascript:;" class="link_two" value='+this.url+'>'+this.name+'</a>' +
+                    '</li>';
+            });
+            $(".two_title .two_ul").html(lists);
+            $(".link_two").click(function () {
+                var link_url=$(this).attr("value");
+                $(this).attr('href','/index/'+link_url+'.html');
+            })
+        }
+    });
+</script>
+<style type="text/css">
+    /*地图*/
+    #dituContent{width:100%;height:6rem;}
+    .iw_poi_title {color:#CC5522;font-size:.15rem;font-weight:bold;overflow:hidden;padding-right:.13rem;white-space:nowrap}
+    .iw_poi_content {font-size:.17rem;overflow:visible;color: #000;padding-top: .2rem}
+   .guoan{text-align: center;}
+    /*.img,.phone,.address,.bus{background: url("__HOMES__/images/1.png") no-repeat;background-size:3.18rem 2.27rem;}*/
+    .img{background-position: 0 0;width:.49rem;height: .5rem;margin:.51rem auto .18rem auto;}
+    .guoan p{color:#c8171f;font-size: .16rem;line-height: .27rem;font-weight: bold;letter-spacing: .03rem}
+    .intro{width: 14rem;height: 1.55rem;margin: .4rem auto;}
+    .intro div{box-sizing: border-box;float: left;text-align: center;}
+    .intro div:nth-child(1){width:2.23rem;height:1.55rem;}
+    /*border: .02rem solid #c82128;border-bottom:none;border-top: none;*/
+    /*.intro div:nth-child(1){width:3.8rem;height:1.55rem;margin-left: .45rem}*/
+    .intro div:nth-child(2){width:3.34rem;height:1.55rem;}
+    .intro div:nth-child(3){width:4.16rem;height: 1.55rem; }
+    .intro div:nth-child(4){margin-left: .33rem}
+    .intro div:nth-child(-n+3){border-right:.02rem solid #c82128;}
+   .intro p{font-size: .14rem;color: #000;line-height: .25rem}
+   .phone,.address,.bus{display: block;margin: .08rem auto;}
+    .phone{width:.43rem;height:.34rem;background-position: 0 -.72rem;}
+    .address{width: .38rem;height: .48rem;background-position:  -.6rem 0;}
+    .bus{width:.36rem;height:.37rem;background-position:  -.61rem -.7rem;}
+    .big_ul li:nth-child(9) a{color:#c72028}
+    .two_nav ul li:nth-child(3){background-color: rgba(160,160,160,.35)}
+    .con_bo,.con_xin{width: .67rem;height: 1.55rem;float: left;}
+    .con_icon{width: .37rem;height: .29rem;margin: 0 auto;}
+    .con_erweima{width: .67rem;height: .67rem;margin: .32rem  auto .06rem auto;}
+    .con_xin{margin: auto .43rem}
+
+</style>
+<!--[if lt IE 9]>
+    <script type="text/javascript">
+    document.write("<div style='position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: 100%; padding-top: 200px;  background-color: #fff'><P  style='font-size: 16px; text-align: center'>您正在使用 Internet Explorer 低版本，在本页面的显示效果可能有差异，建议您升级到IE9及以上版本或使用其他浏览器</P></div>")
+</script>
+<![endif]-->
+<body>
+{include file="public/header" /}
+{include file="public/about_nav" /}
+
+<div id="dituContent"></div>
+<div class="guoan">
+    <div class="img"></div>
+    <p>中信国安新桥影视基地</p>
+    <p>国安新桥 (北京) 影视传媒投资有限公司</p>
+</div>
+<div class="intro">
+    <div >
+        <span  class="con_bo">
+            <img src="__HOMES__/images/bo.png" class="con_icon"/>
+            <img src="__HOMES__/images/weibo.png" class="con_erweima"/>
+            <p>官方微博</p>
+        </span>
+        <span  class="con_xin">
+            <img src="__HOMES__/images/wei.png" class="con_icon"/>
+            <img src="__HOMES__/images/weixin.png" class="con_erweima"/>
+             <p>官方微信</p>
+        </span>
+    </div>
+    <div>
+        <span class="phone"></span>
+        <p>联系电话：0316-808 3441 010-6506 2066</p>
+        <P>官方网站：www.vfxcity.com</P>
+        <p>电子邮件：xinqiao@vfxcity.com</p>
+    </div>
+    <div >
+        <span class="address"></span>
+        <p>基地地址：河北省香河经济开发区中信国安第一城</p>
+        <p>北京办公地址：北京市朝阳区关东店北街1号国安大厦4层</p>
+    </div>
+    <div >
+        <span class="bus"></span>
+        <p>公交：乘坐938/通勤班车 (郎家园-安平香汐花园)</p>
+        <p>自驾-北京：东四环-京哈高速-西集出口-(第35个出口)</p>
+        <p>下高速，出收费站右转过桥直行-香河安平经济开发区-第一城</p>
+    </div>
+</div>
+{include file="public/footer" /}
+</body>
+</html>
+
+
+
+ <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(116.917513,39.724097);//定义一个中心点坐标
+        map.centerAndZoom(point,16);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+
+    }
+    //标注点数组
+    var markerArr = [{title:"中信国安新桥影视基地",content:"用世界的语言&nbsp;&nbsp;&nbsp;讲中国的故事",point:"116.917563|39.723542",isOpen:1,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+    ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i < markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                fontFamily:"微软雅黑 ",
+                border:"0",
+                backgroundColor:"",
+                color:"#c72027",
+                cursor:"pointer",
+                fontSize:".24rem",
+                fontWeight:"bold",
+                position:"absolute",
+                marginTop:"-.45rem",
+                marginLeft:"-1.3rem"
+            });
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://map.baidu.com/image/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>

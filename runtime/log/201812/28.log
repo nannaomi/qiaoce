@@ -1,0 +1,65 @@
+---------------------------------------------------------------
+[ 2018-12-28T10:41:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] xq_qiaoce.com/ [运行时间：1.462709s][吞吐率：0.68req/s] [内存消耗：2,820.41kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.024031s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\qiaoce\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)[C:\wamp\www\qiaoce\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-12-28T10:42:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] xq_qiaoce.com/ [运行时间：0.885370s][吞吐率：1.13req/s] [内存消耗：3,057.88kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000810s ]
+[ info ] [ LANG ] C:\wamp\www\qiaoce\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xq_qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\qiaoce\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\qiaoce\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.087918s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007831s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.282007s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.004243s ]

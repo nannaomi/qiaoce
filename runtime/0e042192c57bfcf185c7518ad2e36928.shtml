@@ -1,0 +1,210 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="__STATIC__/hui/lib/html5shiv.js"></script>
+<script type="text/javascript" src="__STATIC__/hui/lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="__STATIC__/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="__STATIC__/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="__STATIC__/hui/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="__STATIC__/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="__STATIC__/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="__STATIC__/hui/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>职位列表</title>
+<link rel="stylesheet" href="__STATIC__/hui/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+</head>
+<body>
+
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 产品管理 <span class="c-gray en">&gt;</span> 招聘列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="page-container">
+
+		<div class="cl pd-5 bg-1 bk-gray mt-20">
+			<span class="l">
+				<a href="javascript:;" onclick="recruit_dataDel()"  class="btn btn-danger radius dataDel"><i class="Hui-iconfont">&#xe6e2;</i>批量删除</a>
+			    <a class="btn btn-primary radius" onclick="recruit_add('添加职位','/admin/joinus/recruitadd.html','1000')" href="javascript:;"><i class="Hui-iconfont">&#xe600;</i> 添加职位</a>
+			</span>
+
+			<span class="r">共有数据：<strong> 7</strong> 条</span> </div>
+
+		<div class="mt-20">
+			<table class="table table-border table-bordered table-bg table-hover ">
+				<thead>
+					<tr class="text-c">
+						<th width="80"><input name="" type="checkbox" value=""></th>
+						<th width="150">招聘职位</th>
+						<th>详细描述</th>
+						<th width="100">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+									<tr class="text-c va-m">
+						<td><input name="dataCheck" type="checkbox" value="14"></td>
+						<td class="text-l">IO管理呀</td>
+						<td class="text-l"><p><strong>职位描述</strong>：<br/>Input:<br/>将客户提供的各种格式素材转换为特效所需的文件格式，色彩空间。<br/>Output:<br/>1、不同类型素材格式转换、色彩空间转换、加水印等；<br/>2、DEMO及最终输出画面的技术性检查（镜头数量、文件格式、色彩空间、分辨率、帧速率、镜头时长等）；<br/>3、为视效与制片准备特效完成的剪辑小样，为客户规整放映特效剪辑；<br/>4、CG制作流程梳理与管理。<br/><br/><strong>职位需求</strong>：<br/>1、熟悉主流摄影机拍摄素材格式及处理方式；<br/>2、熟悉各种媒体文件的编解码格式；<br/>3、熟悉剪辑、生产软件；<br/>4、掌握文件管理、转码流程；<br/>5、有跟组经验者优先。</p><p><br/></p></td>
+						<td class="td-manage">
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_edit('职位编辑','/admin/joinus/recruitedit/id/14.html','1000')" href="javascript:;" title="编辑">
+								<i class="Hui-iconfont">&#xe6df;</i></a>
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_del(this,'14')" href="javascript:;" title="删除">
+								<i class="Hui-iconfont">&#xe6e2;</i></a>
+						</td>
+					</tr>
+									<tr class="text-c va-m">
+						<td><input name="dataCheck" type="checkbox" value="13"></td>
+						<td class="text-l">IO管理</td>
+						<td class="text-l"><p>职位描述：<br/>Input:<br/>将客户提供的各种格式素材转换为特效所需的文件格式，色彩空间。<br/>Output:<br/>1、不同类型素材格式转换、色彩空间转换、加水印等；<br/>2、DEMO及最终输出画面的技术性检查（镜头数量、文件格式、色彩空间、分辨率、帧速率、镜头时长等）；<br/>3、为视效与制片准备特效完成的剪辑小样，为客户规整放映特效剪辑；<br/>4、CG制作流程梳理与管理。<br/><br/>职位需求：<br/>1、熟悉主流摄影机拍摄素材格式及处理方式；<br/>2、熟悉各种媒体文件的编解码格式；<br/>3、熟悉剪辑、生产软件；<br/>4、掌握文件管理、转码流程；<br/>5、有跟组经验者优先。</p></td>
+						<td class="td-manage">
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_edit('职位编辑','/admin/joinus/recruitedit/id/13.html','1000')" href="javascript:;" title="编辑">
+								<i class="Hui-iconfont">&#xe6df;</i></a>
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_del(this,'13')" href="javascript:;" title="删除">
+								<i class="Hui-iconfont">&#xe6e2;</i></a>
+						</td>
+					</tr>
+									<tr class="text-c va-m">
+						<td><input name="dataCheck" type="checkbox" value="5"></td>
+						<td class="text-l">合成师</td>
+						<td class="text-l">职位描述：<br/>主要负责项目后期合成特效工作，按要求完成合成特效制作。<br/><br/>职位需求：<br/>1、大专以上学历，有2-5年影视项目工作经验；<br/>2、熟练运用主流合成软件，匹配CG与实拍素材的光影，制作写实级别的镜头；<br/>3、精通三维分层合成，熟悉立体合成，三维合成等技术；<br/>4、能承受较大的工作压力。<br/></td>
+						<td class="td-manage">
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_edit('职位编辑','/admin/joinus/recruitedit/id/5.html','1000')" href="javascript:;" title="编辑">
+								<i class="Hui-iconfont">&#xe6df;</i></a>
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_del(this,'5')" href="javascript:;" title="删除">
+								<i class="Hui-iconfont">&#xe6e2;</i></a>
+						</td>
+					</tr>
+									<tr class="text-c va-m">
+						<td><input name="dataCheck" type="checkbox" value="4"></td>
+						<td class="text-l">材质模型师</td>
+						<td class="text-l">职位描述：<br/>1、按照原画和概念设定完成项目中角色的制作及贴图绘制；<br/>2、按要求完成动画片与电影项目中各种精度的模型制作。<br/><br/>职位需求：<br/>1、精通maya建模，对于角色模型有优秀的形体塑造能力；<br/>2、精通maya灯光材质模块，能独立完成，贴图绘制，熟悉Arnold材质系统；<br/>3、能有效的与绑定、动画部门对接，了解绑定、动画等后续流程需求；<br/>4、具有较强责任感及良好的沟通技巧，有较强的团队意识；<br/>5、有次时代或写实模型制作经验优先；<br/>6、一年以上工作经验，有大型CG项目经验者优先。<br/></td>
+						<td class="td-manage">
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_edit('职位编辑','/admin/joinus/recruitedit/id/4.html','1000')" href="javascript:;" title="编辑">
+								<i class="Hui-iconfont">&#xe6df;</i></a>
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_del(this,'4')" href="javascript:;" title="删除">
+								<i class="Hui-iconfont">&#xe6e2;</i></a>
+						</td>
+					</tr>
+									<tr class="text-c va-m">
+						<td><input name="dataCheck" type="checkbox" value="3"></td>
+						<td class="text-l">项目制片</td>
+						<td class="text-l">职位描述：<br/>1、负责项目的整体规划及进度追踪；<br/>2、在影视后期制作进行中与业务方团队沟通协调，处理项目进行中的问题；<br/>3、制作成本和周期的控制与管理；<br/>4、向视效总监传达业务方制作风格要求及镜头修改方案。<br/><br/>职位需求：<br/>1、有一定的视效制作相关工作经验，了解制作各个环节相关技术指标；<br/>2、一年以上视效制片工作经验；<br/>3、有清晰的项目管理，时间管理概念；<br/>4、极强的沟通能力，善于情绪管理。<br/></td>
+						<td class="td-manage">
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_edit('职位编辑','/admin/joinus/recruitedit/id/3.html','1000')" href="javascript:;" title="编辑">
+								<i class="Hui-iconfont">&#xe6df;</i></a>
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_del(this,'3')" href="javascript:;" title="删除">
+								<i class="Hui-iconfont">&#xe6e2;</i></a>
+						</td>
+					</tr>
+									<tr class="text-c va-m">
+						<td><input name="dataCheck" type="checkbox" value="2"></td>
+						<td class="text-l">影视后期业务总监</td>
+						<td class="text-l">职位描述：<br/>1、负责管理影视后期业务的制片团队和市场团队；<br/>2、负责组织市场人员开发影棚租赁、全流程影视制作业务；<br/>3、统筹管理各类影视后期制作项目的进度和品控，及时满足客户提出的制作需求；<br/>4、负责培训及考核团队工作，保障内部有效沟通；<br/>5、带领市场团队完成公司下达的经营目标。<br/><br/>职位需求：<br/>1、具备影视制作专业素养，5年以上影视制作工作经验；不少于3年管理工作经验，有成熟作品，有制片经验者优先；<br/>2、具备很好的沟通能力和管理能力，对客户需求有优越的捕捉理解力，能够细致准确地与团队中任何一人沟通。具有优秀的现场应对和谈判技巧，能够代表公司与客户项目负责人直接对话；<br/>3、具有独立带领团队作业的领导能力，高度的责任心、超凡的人格魅力，作风谦逊上进；<br/>4、岗位技能方面需要对整个影视制作流程非常了解，熟悉各种类型影视项目的制作流程和业务谈判，有大量高级项目经验，主导过许多成熟案例，可以直接胜任后期导演者优先。<br/>5、	敏锐的市场洞察力、清晰的策略思考能力、无限的创造力。</td>
+						<td class="td-manage">
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_edit('职位编辑','/admin/joinus/recruitedit/id/2.html','1000')" href="javascript:;" title="编辑">
+								<i class="Hui-iconfont">&#xe6df;</i></a>
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_del(this,'2')" href="javascript:;" title="删除">
+								<i class="Hui-iconfont">&#xe6e2;</i></a>
+						</td>
+					</tr>
+									<tr class="text-c va-m">
+						<td><input name="dataCheck" type="checkbox" value="1"></td>
+						<td class="text-l">影视后期制作总监</td>
+						<td class="text-l">职位描述：<br/>1、负责项目后期制作与人员管理，把控项目制作中的质量与进度、合理安排人员分工等；<br/>2、解决部门人员制作项目中所遇到的软件、硬件等技术问题；<br/>3、开发维护大后期制作环节（DI、剪辑、声音）的技术流程，确保项目高效顺利完成；<br/>4、把握影片总体制作风格，通过制作流程统筹合理控制项目制作成本；<br/>5、负责影片制作整体执行监控，协调各部门沟通，保证承接项目的顺畅执行；<br/>6、负责培训及考核制作团队工作，保障内部有效沟通；<br/><br/>职位需求：<br/>1、五年以上影视后期行业工作经验，总监（主管）级别管理经验2年以上，有独立负责影视后期项目的作品和经历；<br/>2、能够自我学习，能够直接解决相关技术范畴内遇到的问题或给出合理方案，能够独立带领团队有效完成项目的音视频后期制作；<br/>3、工作严谨细致有责任心能吃苦耐劳，有良好的沟通能力和服务意识。<br/>4、	对影视后期制作各环节技术有深入的了解，对各制作模块提供必要的技术支持。<br/>5、	在团队建设与项目管理方面，需要做出团队组织架构，建立工具包，规划部门资源方案，对项目管理规范做出标准。</td>
+						<td class="td-manage">
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_edit('职位编辑','/admin/joinus/recruitedit/id/1.html','1000')" href="javascript:;" title="编辑">
+								<i class="Hui-iconfont">&#xe6df;</i></a>
+							<a style="text-decoration:none" class="ml-5" onClick="recruit_del(this,'1')" href="javascript:;" title="删除">
+								<i class="Hui-iconfont">&#xe6e2;</i></a>
+						</td>
+					</tr>
+								</tbody>
+			</table>
+		</div>
+
+
+
+
+	</div>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="__STATIC__/hui/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__STATIC__/hui/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__STATIC__/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="__STATIC__/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/hui/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="__STATIC__/hui/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/hui/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/hui/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+/*招聘-添加*/
+function recruit_add(title,url,w,h){
+    layer_show(title,url,w,h);
+}
+/*招聘-删除*/
+function del(id,tr){
+    layer.confirm("确定要删除所选内容吗？",function () {
+        $.ajax({
+            type: 'POST',
+            url: '/admin/joinus/del.html',
+            data:{'id':id},
+            dataType: 'json',
+            success: function(data){
+                layer.msg(data,{icon:2,time:1500});
+            }
+            ,error:function() {
+                layer.msg('已删除!',{icon:1,time:1000});
+                for(var i=0;i<tr.length;i++){
+                    tr[i].remove();
+                }
+                var content=($('.r>strong').html())-tr.length;
+                $('.r>strong').html(content);
+            }
+        });
+    });
+}
+
+/*招聘-单个删除*/
+function recruit_del(obj,id){
+    var tr=$(obj).parents("tr");
+    del(id,tr);
+}
+/*招聘-批量删除*/
+function recruit_dataDel(){
+    var checkLen=$("input[name='dataCheck']:checked").length;
+    if(checkLen==0){
+        layer.msg("请至少选择一项",{icon:7,time:2000});
+        return;
+    }
+    var checkList= new Array(),checkTr=new Array();
+    $("input[name='dataCheck']:checked").each(function(){
+        checkList.push($(this).val());
+        checkTr.push($(this).parents("tr"));
+    });
+     del(checkList,checkTr);
+
+}
+/*招聘-编辑*/
+function recruit_edit(title,url,w,h){
+    layer_show(title,url,w,h);
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

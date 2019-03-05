@@ -1,0 +1,279 @@
+---------------------------------------------------------------
+[ 2018-12-07T14:54:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] qiaoce.com/admin [运行时间：3.802426s][吞吐率：0.26req/s] [内存消耗：2,059.27kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.140343s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.2.2457.400',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp\www\new\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\index\index2.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.051918s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-07T14:54:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ info ] qiaoce.com/admin/index/welcome.html [运行时间：0.708649s][吞吐率：1.41req/s] [内存消耗：1,986.41kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.015949s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.2.2457.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://qiaoce.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ C:\wamp\www\new\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.316755s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-07T14:54:30+08:00 ] 127.0.0.1 127.0.0.1 GET /lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] qiaoce.com/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：1.538978s][吞吐率：0.65req/s] [内存消耗：1,688.69kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001407s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.2.2457.400',
+  'accept' => '*/*',
+  'referer' => 'http://qiaoce.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-07T14:54:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] qiaoce.com/admin [运行时间：0.457715s][吞吐率：2.18req/s] [内存消耗：2,058.99kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.003871s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp\www\new\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\index\index2.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.031639s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-07T14:54:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ info ] qiaoce.com/admin/index/welcome.html [运行时间：0.048936s][吞吐率：20.43req/s] [内存消耗：1,986.20kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001983s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ C:\wamp\www\new\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.003095s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-07T14:54:48+08:00 ] 127.0.0.1 127.0.0.1 GET /lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] qiaoce.com/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.101786s][吞吐率：9.82req/s] [内存消耗：1,688.48kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.002360s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-07T14:54:49+08:00 ] 127.0.0.1 127.0.0.1 GET /lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] qiaoce.com/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.035234s][吞吐率：28.38req/s] [内存消耗：1,688.48kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001648s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-07T14:55:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] qiaoce.com/admin/article/index.html [运行时间：1.724509s][吞吐率：0.58req/s] [内存消耗：3,527.94kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001270s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ C:\wamp\www\new\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\article\article.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.022960s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.418910s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.463773s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`thumb_img`,`img_time`,`time`,`classify` FROM `article` ORDER BY id desc [ RunTime:0.082265s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 105 LIMIT 1 [ RunTime:0.003364s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 104 LIMIT 1 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 103 LIMIT 1 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 102 LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 100 LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 99 LIMIT 1 [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 97 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 92 LIMIT 1 [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 91 LIMIT 1 [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 90 LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 89 LIMIT 1 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 88 LIMIT 1 [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 87 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 86 LIMIT 1 [ RunTime:0.013303s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 85 LIMIT 1 [ RunTime:0.007307s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 84 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 83 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 82 LIMIT 1 [ RunTime:0.001362s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 81 LIMIT 1 [ RunTime:0.002842s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 80 LIMIT 1 [ RunTime:0.007439s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.008685s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.005790s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 73 LIMIT 1 [ RunTime:0.002605s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 41 LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.001356s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.013777s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.007255s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000426s ]

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="国安新桥（北京）影视传媒投资有限公司，是中信国安集团布局影视产业、打造国际化电影工业体系的
+    重要举措，是面向国际影视产业的重要平台。公司自2014年建立以来，作为国安新桥影视特效基地的投资运营主体，一直致力于打造国际化的
+    电影特效及影视后期制作产业核心力量。基地不仅配备了国际一流的全数字、网络化、集群化的电影特效制作硬件以及影视后期音视频制作系
+    统等，而且凭借丰富的国内外行业资源，与影视各界人士构建多方合作。">
+    <meta name="keywords" content="影棚租赁,数字棚,绿幕棚,动捕棚,后期制作,影视培训,影视特效,中国特效公司,视效,视效制作,
+    特效,特效制作,特效公司,特效解析,电影后期,CG,CG制作,三维制作，三维，数字制作,国内特效,外景租赁"/>   
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="shortcut icon" type="image/x-icon" href="/static/home/images/ico.ico" media="screen">
+    <title>中信国安新桥影视基地—加入我们</title>
+    <link rel="stylesheet" type="text/css" href="/static/home/css/comm.css"/>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js "></script>
+    <!--<script  src="/static/home/js/comm.js "></script>-->
+</head>
+<script>
+    $(function(){
+        var $style=["ys0","ys1","ys2","ys3","ys4","ys5"];
+        $(".left ul li").eq(0).addClass($style[0]).css("color","white");
+       $(".right ul li").eq(0).addClass($style[0]);
+        $(".left ul li").hover(function(){
+            $(".left ul li").eq($(this).index()).addClass($style[$(this).index()]).css("color","white").siblings().removeClass().css("color","#000");
+            $(".right ul li").eq($(this).index()).addClass($style[$(this).index()]).show().siblings().hide();
+            $(".left ul li").eq(4).css("color",'#000000');
+        })
+
+    })
+</script>
+<style>
+
+
+
+
+    .life_bg{position:fixed; z-index: -9999;width: 100%; height: 100%; left: 0; top:0;}
+    /*招聘*/
+
+    /*.join_main{width:13.31rem;height:8.5rem;position: relative; top: 1.97rem;margin: 0 auto;border:1px solid red;}*/
+
+    .join_main{width:13.31rem;height:8.5rem;bottom: 0;position: relative; top: .97rem;margin: 0 auto;}
+
+    .left{width: 5.73rem;height: 5.86rem;top:12.9%;position: absolute;float: left}
+    .left ul li{box-sizing: border-box;width: 2.78rem;height: 1.85rem;border: .01rem solid #000;text-align: center;line-height: 1.85rem}
+    .left ul li:nth-child(-n+4){margin-bottom: .16rem}
+    .left ul li:nth-child(2n){margin-left: .17rem}
+    .left ul li{font-size: .24rem;color: #000;}
+    .right{width: 5.99rem;height: 100%;position: relative;float: right}
+    .right ul li{width: 5.99rem;height:8.5rem;font-size:.14rem;overflow-y: auto;box-sizing: border-box;padding: 0 .45rem;line-height: .3rem;letter-spacing: .018rem }
+    .right ul li p{font-size: .24rem;margin: .43rem auto;text-align: center;}
+    .right ul li:not(:first-child){display: none}
+    .ys0{background-color:#f06d51;}.ys1{background-color:#6541a5;color: #FFFFFF}.ys2{background-color: #17b88f}
+    .ys3{background-color: #65cafe}.ys4{background-color: #ffd274}.ys5{background-color: #ff7072}
+
+    .xq_c1 li:nth-child(9) a{color:#c72028}
+    .two_nav ul li:nth-child(2){background-color: rgba(160,160,160,.35)}
+
+
+
+    .xq_c1{height: .95rem;float: left;display: block}
+    .xq_c1 li{font-size: .2rem;height: .95rem;line-height: .95rem;margin: auto .27rem}
+    .xq_c1 li:nth-child(1){margin-left: 0;}
+    .xq_c1 li a{font-family: 'Adobe 黑体 Std R';font-weight: 600;text-shadow: .01rem .01rem  #000;color: #fff;text-align: center}
+</style>
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    document.write("<div style='position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: 100%; padding-top: 200px;  background-color: #fff'><P  style='font-size: 16px; text-align: center'>您正在使用 Internet Explorer 低版本，在本页面的显示效果可能有差异，建议您升级到IE9及以上版本或使用其他浏览器</P></div>")
+</script>
+<![endif]-->
+
+<body>
+<div style="width: 100%;height:  .95rem;background-color:rgba(0,0,0,.5);" >
+    <a href="/index.php/index/index/index.html" ><div class="oherlogo"></div></a>
+        <ul class="xq_c1">
+                        <li><a href='/index.php/index/index/index.html'  class="link" value="1" >首页</a></li>
+                        <li><a href='/index.php/index/service/earlier.html'  class="link" value="2" >前期拍摄</a></li>
+                        <li><a href='/index.php/index/service/later.html'  class="link" value="7" >后期制作</a></li>
+                        <li><a href='/index.php/index/service/special.html'  class="link" value="17" >特效制作</a></li>
+                        <li><a href='/index.php/index/service/matching.html'  class="link" value="25" >配套服务</a></li>
+                        <li><a href='/index.php/index/index/project.html'  class="link" value="28" >项目展示</a></li>
+                        <li><a href='/index.php/index/college/index.html'  class="link" value="29" >影视学院</a></li>
+                        <li><a href='/index.php/index/news/news.html'  class="link" value="30" >新闻中心</a></li>
+                        <li><a href='/index.php/index/about/about.html'  class="link" value="33" >关于我们</a></li>
+                    </ul>
+
+    <div class="lan">中文 / EN</div>
+</div>
+
+
+<!--<div style="width: 100%;height:  .95rem;background-color:rgba(0,0,0,.5);" >-->
+    <!--<a href="" ><div class="oherlogo"></div></a>-->
+    <!--<ul class="xq_c1">-->
+        <!--<li><a href="">拍摄</a></li>-->
+        <!--<li><a href="">前期拍摄</a></li>-->
+        <!--<li><a href="">前期拍摄</a></li>-->
+        <!--<li><a href="">前期拍摄</a></li>-->
+        <!--<li><a href="">前期拍摄</a></li>-->
+        <!--<li><a href="">前期拍摄</a></li>-->
+        <!--<li><a href="">前期拍摄</a></li>-->
+        <!--<li><a href="">前期拍摄</a></li>-->
+        <!--<li><a href="">前期拍摄</a></li>-->
+    <!--</ul>-->
+    <!--&lt;!&ndash;<div class="nav_box">&ndash;&gt;-->
+    <!--&lt;!&ndash;<ul class="big_ul">&ndash;&gt;-->
+    <!--&lt;!&ndash;<li><a href=''  class="link" value="" ></a></li>&ndash;&gt;-->
+    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--<div class="lan">中文 / EN</div>-->
+
+<!--</div>-->
+<div class="two_nav">
+    <ul >
+                <li><a href="/index/about/about.html">关于我们</a></li>
+                <li><a href="/index/about/join.html">加入我们</a></li>
+                <li><a href="/index/about/contact.html">联系我们</a></li>
+                <li><a href="/index/about/baselife.html">基地生活</a></li>
+                <li><a href="/index/about/video.html">企业宣传片</a></li>
+            </ul>
+</div>
+
+<div class="life_bg" ><img src="/static/home/images/life-bg.jpg" width="100%" height="100%"/></div>
+
+
+<div class="join_main">
+    <div class="left">
+    <ul>
+                <li>影视后期制作总监</li>
+                <li>影视后期业务总监</li>
+                <li>项目制片</li>
+                <li>材质模型师</li>
+                <li>合成师</li>
+                <li>IO管理</li>
+            </ul>
+    </div>
+    <div class="right">
+        <ul>
+                        <li><p>影视后期制作总监</p>职位描述：<br/>1、负责项目后期制作与人员管理，把控项目制作中的质量与进度、合理安排人员分工等；<br/>2、解决部门人员制作项目中所遇到的软件、硬件等技术问题；<br/>3、开发维护大后期制作环节（DI、剪辑、声音）的技术流程，确保项目高效顺利完成；<br/>4、把握影片总体制作风格，通过制作流程统筹合理控制项目制作成本；<br/>5、负责影片制作整体执行监控，协调各部门沟通，保证承接项目的顺畅执行；<br/>6、负责培训及考核制作团队工作，保障内部有效沟通；<br/><br/>职位需求：<br/>1、五年以上影视后期行业工作经验，总监（主管）级别管理经验2年以上，有独立负责影视后期项目的作品和经历；<br/>2、能够自我学习，能够直接解决相关技术范畴内遇到的问题或给出合理方案，能够独立带领团队有效完成项目的音视频后期制作；<br/>3、工作严谨细致有责任心能吃苦耐劳，有良好的沟通能力和服务意识。<br/>4、	对影视后期制作各环节技术有深入的了解，对各制作模块提供必要的技术支持。<br/>5、	在团队建设与项目管理方面，需要做出团队组织架构，建立工具包，规划部门资源方案，对项目管理规范做出标准。</li>
+                       <li><p>影视后期业务总监</p>职位描述：<br/>1、负责管理影视后期业务的制片团队和市场团队；<br/>2、负责组织市场人员开发影棚租赁、全流程影视制作业务；<br/>3、统筹管理各类影视后期制作项目的进度和品控，及时满足客户提出的制作需求；<br/>4、负责培训及考核团队工作，保障内部有效沟通；<br/>5、带领市场团队完成公司下达的经营目标。<br/><br/>职位需求：<br/>1、具备影视制作专业素养，5年以上影视制作工作经验；不少于3年管理工作经验，有成熟作品，有制片经验者优先；<br/>2、具备很好的沟通能力和管理能力，对客户需求有优越的捕捉理解力，能够细致准确地与团队中任何一人沟通。具有优秀的现场应对和谈判技巧，能够代表公司与客户项目负责人直接对话；<br/>3、具有独立带领团队作业的领导能力，高度的责任心、超凡的人格魅力，作风谦逊上进；<br/>4、岗位技能方面需要对整个影视制作流程非常了解，熟悉各种类型影视项目的制作流程和业务谈判，有大量高级项目经验，主导过许多成熟案例，可以直接胜任后期导演者优先。<br/>5、	敏锐的市场洞察力、清晰的策略思考能力、无限的创造力。</li>
+                       <li><p>项目制片</p>职位描述：<br/>1、负责项目的整体规划及进度追踪；<br/>2、在影视后期制作进行中与业务方团队沟通协调，处理项目进行中的问题；<br/>3、制作成本和周期的控制与管理；<br/>4、向视效总监传达业务方制作风格要求及镜头修改方案。<br/><br/>职位需求：<br/>1、有一定的视效制作相关工作经验，了解制作各个环节相关技术指标；<br/>2、一年以上视效制片工作经验；<br/>3、有清晰的项目管理，时间管理概念；<br/>4、极强的沟通能力，善于情绪管理。<br/></li>
+                       <li><p>材质模型师</p>职位描述：<br/>1、按照原画和概念设定完成项目中角色的制作及贴图绘制；<br/>2、按要求完成动画片与电影项目中各种精度的模型制作。<br/><br/>职位需求：<br/>1、精通maya建模，对于角色模型有优秀的形体塑造能力；<br/>2、精通maya灯光材质模块，能独立完成，贴图绘制，熟悉Arnold材质系统；<br/>3、能有效的与绑定、动画部门对接，了解绑定、动画等后续流程需求；<br/>4、具有较强责任感及良好的沟通技巧，有较强的团队意识；<br/>5、有次时代或写实模型制作经验优先；<br/>6、一年以上工作经验，有大型CG项目经验者优先。<br/></li>
+                       <li><p>合成师</p>职位描述：<br/>主要负责项目后期合成特效工作，按要求完成合成特效制作。<br/><br/>职位需求：<br/>1、大专以上学历，有2-5年影视项目工作经验；<br/>2、熟练运用主流合成软件，匹配CG与实拍素材的光影，制作写实级别的镜头；<br/>3、精通三维分层合成，熟悉立体合成，三维合成等技术；<br/>4、能承受较大的工作压力。<br/></li>
+                       <li><p>IO管理</p>职位描述：<br/>Input:<br/>将客户提供的各种格式素材转换为特效所需的文件格式，色彩空间。<br/>Output:<br/>1、不同类型素材格式转换、色彩空间转换、加水印等；<br/>2、DEMO及最终输出画面的技术性检查（镜头数量、文件格式、色彩空间、分辨率、帧速率、镜头时长等）；<br/>3、为视效与制片准备特效完成的剪辑小样，为客户规整放映特效剪辑；<br/>4、CG制作流程梳理与管理。<br/><br/>职位需求：<br/>1、熟悉主流摄影机拍摄素材格式及处理方式；<br/>2、熟悉各种媒体文件的编解码格式；<br/>3、熟悉剪辑、生产软件；<br/>4、掌握文件管理、转码流程；<br/>5、有跟组经验者优先。<br/><br/></li>
+                   </ul>
+    </div>
+</div>
+<footer >
+    <p>
+        Copyright ©vfxcity.com. All Rights Reserved. 国安新桥（北京）影视传媒有限公司 版权所有 &nbsp;&nbsp;京ICP备14058800号 &nbsp;&nbsp;京公网安备11010502035066</p>
+</footer>
+
+</body>
+</html>
+<script>
+    document.documentElement.style.fontSize=document.documentElement.clientWidth / 1920 * 100 + 'px';
+    var str=location.href;
+    var suffix = str.substr(str.lastIndexOf("/")+1);
+    var link=suffix.substr(0,suffix.lastIndexOf("."));
+    $.ajax({
+        type:"post",
+        url:'/index.php/index/about/service.html',
+        data:{link:link},
+        dataType:"json",
+        success:function (res){
+            console.log(res);
+            var lists=' ';
+            $.each(res,function () {
+                lists+='<li class="two_li">' +
+                    '<a href="javascript:;" class="link_two" value='+this.url+'>'+this.name+'</a>' +
+                    '</li>';
+            });
+            $(".two_title .two_ul").html(lists);
+            $(".link_two").click(function () {
+                var link_url=$(this).attr("value");
+                $(this).attr('href','/index/'+link_url+'.html');
+            })
+        }
+    });
+</script>

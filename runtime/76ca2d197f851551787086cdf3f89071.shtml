@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <meta name="description" content="国安新桥（北京）影视传媒投资有限公司，是中信国安集团布局影视产业、打造国际化电影工业体系的
+    重要举措，是面向国际影视产业的重要平台。公司自2014年建立以来，作为国安新桥影视特效基地的投资运营主体，一直致力于打造国际化的
+    电影特效及影视后期制作产业核心力量。基地不仅配备了国际一流的全数字、网络化、集群化的电影特效制作硬件以及影视后期音视频制作系
+    统等，而且凭借丰富的国内外行业资源，与影视各界人士构建多方合作。">
+    <meta name="keywords" content="影棚租赁,数字棚,绿幕棚,动捕棚,后期制作,影视培训,影视特效,中国特效公司,视效,视效制作,
+    特效,特效制作,特效公司,特效解析,电影后期,CG,CG制作,三维制作，三维，数字制作,国内特效,外景租赁"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/home/images/ico.ico" media="screen">
+    <title>中信国安新桥影视基地——基地新闻</title>
+    <link rel="stylesheet" type="text/css" href="/static/home/css/comm.css"/>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js "></script>
+    <!--<script  src="/static/home/js/comm.js "></script>-->
+</head>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    document.write("<div style='position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: 100%; padding-top: 200px;  background-color: #fff'><P  style='font-size: 16px; text-align: center'>您正在使用 Internet Explorer 低版本，在本页面的显示效果可能有差异，建议您升级到IE9及以上版本或使用其他浏览器</P></div>")
+</script>
+<![endif]-->
+<script>
+    document.documentElement.style.fontSize=document.documentElement.clientWidth / 1920 * 100 + 'px';
+</script>
+<style>
+    .base_news{width: 14rem;height: auto;margin:1.19rem auto auto -7rem;position: relative;float: left;left: 50%;}
+    .base_news>p>a{color: #bfbfbf;float: left;}
+    .base_news p span{color: #c6202a}
+    #search{float: right;margin-right: .5rem}
+    .search_img{width: .24rem;height: .23rem;background-position:-1.24rem -.14rem;float: right;cursor: pointer}
+    input{border: none;background-color: transparent;color:#c1c1c1;font-size: .14rem}
+    .list{width:14rem;height: auto;background-color:forestgreen;margin-top: .6rem }
+    .list_art{width: 4.32rem;height:3.4rem;float: left;}
+    .list_art p{font-size: 10px;color: #6d6b6c;margin-bottom: .04rem}
+    .list img{width: 4.32rem;height: 2.44rem;overflow: hidden}
+    .list_art h2{font-size: .14rem;line-height: .2rem;margin-top: .14rem}
+    .list_art:nth-child(3n-1){margin: auto .45rem;}
+    .list_art:nth-child(n+4){margin-top: .2rem}
+    .load_div{height:.2rem;width: 14rem;float: left;margin-top: .5rem}
+
+     .load{color: #c72127;font-size: 14px;display: block;border:.01rem solid #c72027;width: 2.48rem;height: .48rem;margin: 0 auto;}
+    .load span{float: left;margin-left: 33.5%;line-height: .48rem}
+    .load_img{width: .11rem;height: .12rem;float: left;background-position: -1.71rem -.2rem;margin: .19rem auto auto .1rem;}
+    .load:hover{color: #FFFFFF;background-color: #c72127}
+    .load:hover .load_img {-webkit-filter: drop-shadow( 0 .01rem #ffffff);filter: drop-shadow( 0 .01rem #ffffff)}
+
+    /*底部*/
+    /*footer{position: relative;float: left;margin-top: .8rem}*/
+
+</style>
+</head>
+<body>
+<header>
+    <div class="oherlogo"></div>
+    <div class="nav_box">
+        <ul class="big_ul">
+                        <li><a href='/index/index/index.html'  class="link" value="1" >首页</a></li>
+                        <li><a href='/index/service/earlier.html'  class="link" value="2" >前期拍摄</a></li>
+                        <li><a href='/index/service/later.html'  class="link" value="7" >后期制作</a></li>
+                        <li><a href='/index/service/special.html'  class="link" value="17" >特效制作</a></li>
+                        <li><a href='/index/service/matching.html'  class="link" value="25" >配套服务</a></li>
+                        <li><a href='/index/index/project.html'  class="link" value="28" >项目展示</a></li>
+                        <li><a href='/index/college/index.html'  class="link" value="29" >影视学院</a></li>
+                        <li><a href='/index/news/news.html'  class="link" value="30" >新闻中心</a></li>
+                        <li><a href='/index/about/about.html'  class="link" value="33" >关于我们</a></li>
+                    </ul>
+    </div>
+    <div class="lan">中文 / EN</div>
+</header>
+
+
+
+
+<div class="life_bg" ><img src="/static/home/images/life-bg.jpg" width="100%" height="100%"/></div>
+<div class="base_news">
+   <p style="font-size:17px "> <a href="/index/news/news.html">新闻中心 ></a> <span></span></p>
+    <div id="search"><input type="search" placeholder="搜索" ><div class="search_img"></div></div>
+    <div class="list" id="msg">
+                   <div class="list_art">
+               <p>2018-11-06</p>
+               <a href="/index/news/details/id/105.html">
+                   <img src="/upload/content/20181109/7da2cc7cd7c15e0.jpeg"/>
+                   <h2>廊坊市委领导###考察中信国安新桥影视基地</h2>
+               </a>
+           </div>
+                   <div class="list_art">
+               <p>2018-10-26</p>
+               <a href="/index/news/details/id/104.html">
+                   <img src="/upload/content/20181029/5bd6d44b609d01w.jpg"/>
+                   <h2>梦回红楼###“红楼梦经典传承”书画艺术展开幕</h2>
+               </a>
+           </div>
+                   <div class="list_art">
+               <p>2018-05-02</p>
+               <a href="/index/news/details/id/103.html">
+                   <img src="/upload/content/20180809/1336e1034af90f7.jpeg"/>
+                   <h2>国安新桥携手高级调色师###用色彩点亮光影世界</h2>
+               </a>
+           </div>
+                   <div class="list_art">
+               <p>2018-05-09</p>
+               <a href="/index/news/details/id/102.html">
+                   <img src="/upload/content/20180809/a33cb87e48e2104.jpeg"/>
+                   <h2>著名导演黄健中###考察中信国安新桥影视基地</h2>
+               </a>
+           </div>
+                   <div class="list_art">
+               <p>2018-04-24</p>
+               <a href="/index/news/details/id/100.html">
+                   <img src="/upload/content/20180809/6dac5df65f03ef4.jpeg"/>
+                   <h2>米家山导演受聘担任中信国安新桥影视基地艺术顾问</h2>
+               </a>
+           </div>
+                   <div class="list_art">
+               <p>2018-04-24</p>
+               <a href="/index/news/details/id/99.html">
+                   <img src="/upload/content/20180809/d5bb18b5ff6b58f.jpeg"/>
+                   <h2>“提升中国电影的制作水准和国际竞争力”论坛 在中信国安新桥影视基地隆重举行</h2>
+               </a>
+           </div>
+            </div>
+    <div class="load_div">
+        <a class="load" id="load_more" href="javascript:;">
+            <span>查看更多</span>
+            <div class="load_img"></div>
+        </a>
+    </div>
+    <input type="hidden" value="0" >
+</div>
+<!--<footer >
+    <p>
+        Copyright ©vfxcity.com. All Rights Reserved. 国安新桥（北京）影视传媒有限公司 版权所有 &nbsp;&nbsp;京ICP备14058800号 &nbsp;&nbsp;京公网安备11010502035066</p>
+</footer>-->
+</body>
+<script>
+  $(function () {
+      //调转时取得当前页面路径
+    var str=location.href;
+    var suffix = str.substr(str.lastIndexOf("/")+1);
+    var link=suffix.substr(0,suffix.lastIndexOf("."));
+    if(link==0){
+        $(".base_news p span").html("基地资讯");
+    }else if(link==1){
+        $(".base_news p span").html("行业资讯");
+    }
+      var track_click=0;
+    $(".load").click(function () {
+        track_click++;
+        $("input[type='hidden']").attr("value","track_click");
+          $.ajax({
+              type:"post",
+              url:'/index/news/page.html',
+              data:{page:track_click,link:link},
+              dataType:"json",
+              success:function(result){
+                     var lists="";
+                    $.each(result,function () {
+                        lists+='<div class="list_art">'+
+                                '<p>'+this.time+'</p>' +
+                                '<a href="/index/news/details/id/'+this.id+'.html">' +
+                                '<img src="/upload/content/'+this.thumb+'"/>' +
+                                '<h2>'+this.title+'</h2>' +
+                                '</div>';
+                    });
+                  $("#msg").append(lists);
+              },
+              error:function () {
+                 $("#load_more span").text("更多内容 敬请期待！").css("margin-left","25%");
+                 $(".load_img").css("display","none");
+              }
+          })
+    });
+//    搜索表单框改变颜色事件
+      $("input[type='search']").focus(function () {
+          $(this).css("color","#000000");
+    });
+//相应键盘事件
+      $("input[type='search']").keydown(function(event) {
+          if (event.keyCode == 13) {
+              $(".search_img").click();
+          }
+      });
+      //    搜索表单失去焦点事件
+      $("input[type='search']").blur(function () {
+          $(this).css("color","#c1c1c1");
+      });
+    //简单实现搜索功能
+    $(".search_img").click(function () {
+        var text= $("input[type='search']").val();
+        $.ajax({
+            type: "get",
+            url: '/index/news/search.html',
+            data: {text: text},
+            dataType: "json",
+            success: function (res) {
+                var searches = "";
+                $.each(res['text'], function () {
+                    searches += '<div class="list_art">' +
+                        '<p>' + this.time + '</p>' +
+                        '<a href="/index/news/details/id/'+this.id+'.html">' +
+                        '<img src="/upload/content/' + this.img_time + '/' + this.thumb_img + '"/> ' +
+                        '<h2>' + this.title + '</h2>' +
+                        '</a>' +
+                        '</div>';
+                })
+                $("#msg").html(searches);
+                $(".load_div").css("display", "none");
+                $(".base_news p span").html(res['find']);
+            }
+        })
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

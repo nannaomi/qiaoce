@@ -1,0 +1,200 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"C:\wamp\www\qiaoce\public/../application/index\view\index\index.html";i:1543823750;s:70:"C:\wamp\www\qiaoce\public/../application/index\view\public\footer.html";i:1541064569;}*/ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="国安新桥（北京）影视传媒投资有限公司，是中信国安集团布局影视产业、打造国际化电影工业体系的
+    重要举措，是面向国际影视产业的重要平台。公司自2014年建立以来，作为国安新桥影视特效基地的投资运营主体，一直致力于打造国际化的
+    电影特效及影视后期制作产业核心力量。基地不仅配备了国际一流的全数字、网络化、集群化的电影特效制作硬件以及影视后期音视频制作系
+    统等，而且凭借丰富的国内外行业资源，与影视各界人士构建多方合作。">
+    <meta name="keywords" content="影棚租赁,数字棚,绿幕棚,动捕棚,后期制作,影视培训,影视特效,中国特效公司,视效,视效制作,
+    特效,特效制作,特效公司,特效解析,电影后期,CG,CG制作,三维制作，三维，数字制作,国内特效,外景租赁"/>   
+ <link rel="shortcut icon" type="image/x-icon" href="__HOMES__/images/ico.ico" media="screen"> 
+   <title>中信国安新桥影视基地</title>
+</head>
+<link rel="stylesheet" type="text/css" href="__HOMES__/css/index.css"/>
+<style>
+.mix_blend2{opacity:0.3;filter:alpha(opacity=30);}
+/*以下内容放入css 文件会报错*/
+nav{width: 9.5rem;height: 100%;position:absolute;top:0;right:0;background-color:rgba(23,27,74,.9);}
+nav>ul{margin-top:2.28rem}
+nav>ul li{clear: both;width: 3.54rem;height: .48rem;line-height: .48rem;margin-top: .03rem}
+nav>ul li a{color: #ffffff;font-size: .2rem; width:2.65rem;height: .47rem;display: inline-block;padding-left: .38rem;}
+.dian_line {display: inline-block;width: .41rem;height: .01rem;border-top: 1px solid red; margin-bottom:.05rem; }
+.dian{display:inline-block;;width: .01rem;height: .01rem;border:.01rem solid  red;background-color: red; margin-bottom:.05rem;}
+.red_border{border: .01rem solid  #c6151b;margin-left: -.07rem;font-style:italic;}
+
+/*top 测试*/
+.top{width:100%;display: block}
+.one{float: left;width: 25%;}
+.box{position: relative;}
+.box .box-img{transform: rotateY(0);-webkit-transform:rotateY(0);-o-transform:rotateY(0);
+    transition: all 0.50s ease-in-out 0s;-webkit-transition: all 0.50s ease-in-out 0s;mix-blend-mode: multiply;}
+.box:hover .box-img{transform: rotateY(-90deg);-webkit-transform:rotateY(-90deg);-o-transform:rotateY(-90deg); }
+.box .box-img img,.box .box-content img{width: 100%;}
+.box .box-content{width:100%;height: 100%;position: absolute;top: 0;left: 0;
+    transform: rotateY(90deg);-webkit-transform:rotateY(90deg);-o-transform:rotateY(90deg);
+    transition: all 0.50s ease-in-out 0s;-webkit-transition: all 0.50s ease-in-out 0s; }
+.box:hover .box-content{transform: rotateY(0);-webkit-transform:rotateY(0);-o-transform:rotateY(0);}
+
+</style>
+<!--[if lt IE 10]>
+<script type="text/javascript">
+    document.write("<div style='position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 999999; width: 100%; height: 100%; padding-top: 200px;  " +
+            "background-color: #fff'><P  style='font-size: 16px; text-align: center'>您正在使用 Internet Explorer 低版本，在本页面的显示效果可" +
+            "能有差异，建议您升级到IE10及以上版本或使用其他浏览器</P></div>")
+</script>
+<![endif]-->
+
+
+<body>
+<div class="header">
+    <i class="currency logo"></i>
+    <i class="currency slogen"></i>
+    <div  class="dao">
+        <div class="line"></div>
+        <b class="blod"><a id="closebtn" href="#">导&nbsp;&nbsp;航</a></b>
+    </div>
+    <div class="lang">中文 / EN</div>
+</div>
+
+  <video style="z-index:-999;" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="__HOMES__/12.mp4" >
+  </video>
+<div class="top">
+    <div class="one" >
+        <div class="box" >
+            <div class="box-img" >
+                <img src="__HOMES__/images/index/s.jpg" alt="" >
+            </div>
+            <div class="box-content">
+                <a href="<?php echo url('service/earlier'); ?>"><img src="__HOMES__/images/index/shooting.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="one" >
+        <div class="box" >
+            <div class="box-img">
+                <img src="__HOMES__/images/index/p.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <a href="<?php echo url('service/later'); ?>"><img src="__HOMES__/images/index/post.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="one" >
+        <div class="box" >
+            <div class="box-img">
+                <img src="__HOMES__/images/index/v.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <a href="<?php echo url('service/special'); ?>"> <img src="__HOMES__/images/index/visual.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="one" >
+        <div class="box" >
+            <div class="box-img">
+                <img src="__HOMES__/images/index/su.jpg" alt="">
+            </div>
+            <div class="box-content">
+                <a href="<?php echo url('service/matching'); ?>"> <img src="__HOMES__/images/index/supportive.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+  <!--<div id="main"><img src="__HOMES__/images/index/bg.jpg" style="width: 100%;display: block" /></div>-->
+  <!--<div class="top">-->
+     <!--<ul>-->
+          <!--<li><div><a href="<?php echo url('service/earlier'); ?>"><img src="__HOMES__/images/index/shooting.jpg" alt=""/></a> </div></li>-->
+         <!--<li><div><a href="<?php echo url('service/later'); ?>"><img src="__HOMES__/images/index/post.jpg" alt="" /></a> </div></li>-->
+         <!--<li><div><a href="<?php echo url('service/special'); ?>"><img src="__HOMES__/images/index/visual.jpg" alt=""/></a> </div></li>-->
+         <!--<li><div><a href="<?php echo url('service/matching'); ?>"> <img src="__HOMES__/images/index/supportive.jpg" alt="" /></a> </div></li>-->
+     <!--</ul>-->
+  <!--</div>-->
+
+<nav style="display: none">
+    <ul>
+        <?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): if( count($data)==0 ) : echo "" ;else: foreach($data as $key=>$vo): ?>
+        <li>
+            <div class="dian_line"></div><div class="dian"></div>
+            <a href='<?php echo url("$vo[url]"); ?>'><?php echo $vo['name']; ?></a>
+        </li>
+        <?php endforeach; endif; else: echo "" ;endif; ?>
+    </ul>
+
+    <div class="first_connect" >
+        <div  class="first_connect_icon">
+            <img src="__HOMES__/images/bai_wei.png" alt="" class="first_weixin"/>
+            <img src="__HOMES__/images/bai_bo.png" alt="" class="first_weibo"/>
+        </div>
+        <div  id="two_dimensional">
+            <img  style="width: 1.3rem;height: 1.3rem;display:none"/>
+        </div>
+    </div>
+</nav>
+<footer >
+    <p>
+        Copyright ©vfxcity.com. All Rights Reserved. 国安新桥（北京）影视传媒有限公司 版权所有 &nbsp;&nbsp;京ICP备14058800号 &nbsp;&nbsp;京公网安备11010502035066</p>
+</footer>
+</body>
+</html>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js "></script>
+<script>
+    $(".box .box-img img,.box .box-content img").css("height",$(window).height());
+    var support_css3 = (function() {
+        var div = document.createElement('div'),
+            vendors = 'Ms O Moz Webkit'.split(' '),
+            len = vendors.length;
+        return function(prop) {
+            if ( prop in div.style ) return true;
+            prop = prop.replace(/^[a-z]/, function(val) {
+                return val.toUpperCase();
+            });
+            while(len--) {
+                if ( vendors[len] + prop in div.style ) {
+                    return true;
+                }
+            }
+            return false;
+        };
+    })();
+    if(!support_css3('mix-blend-mode')){
+        $(".box .box-img img").addClass("mix_blend2");
+    }
+
+    $("nav>ul li").eq(0).children("a").addClass("red_border");
+    $("nav>ul li a").hover(function () {
+      $(this).addClass("red_border").parent("li").siblings("li").children("a").removeClass("red_border");
+    });
+
+
+
+    //不经过处理的情况时候默认给首页加上红边框并倾斜
+//    $(".link li").eq(0).children("p").addClass("red_border");
+//    //导航栏鼠标经过事件
+//    $("nav li p").hover(function () {
+//        $(this).addClass("red_border").parent("li").parent("a").siblings("a").children("li").children("p").removeClass("red_border");
+//    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<script src="__HOMES__/js/index.js "></script>

@@ -1,0 +1,2618 @@
+---------------------------------------------------------------
+[ 2018-12-03T09:36:21+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：3.694487s][吞吐率：0.27req/s] [内存消耗：2,879.13kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.055872s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.076763s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.115107s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.212771s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.032431s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:46:03+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.133980s][吞吐率：7.46req/s] [内存消耗：2,879.34kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001110s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.035657s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003386s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.035616s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:48:46+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.142416s][吞吐率：7.02req/s] [内存消耗：2,879.34kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001042s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.025630s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001319s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.066797s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:50:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.110387s][吞吐率：9.06req/s] [内存消耗：2,879.34kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001155s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.025443s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001652s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.039638s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:52:56+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.214991s][吞吐率：4.65req/s] [内存消耗：2,879.34kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001471s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.075959s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.078399s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:53:21+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.140818s][吞吐率：7.10req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001453s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.053968s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001315s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.038709s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.161223s][吞吐率：6.20req/s] [内存消耗：2,879.34kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001055s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.028236s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001541s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.084357s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:54:24+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.186970s][吞吐率：5.35req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001316s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.056309s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001352s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.074007s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:54:36+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.273485s][吞吐率：3.66req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000769s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.032528s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001301s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.199723s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:54:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.115159s][吞吐率：8.68req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001049s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.026593s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001367s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.033594s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:54:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.099620s][吞吐率：10.04req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000723s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.026784s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.030452s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:55:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.118489s][吞吐率：8.44req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001426s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.027692s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001330s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.039016s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:55:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.972527s][吞吐率：1.03req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000923s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.023820s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001502s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.906119s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:55:18+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.189345s][吞吐率：5.28req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001577s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.024008s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001500s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.110222s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:55:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.121938s][吞吐率：8.20req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001857s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.028158s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001219s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.039701s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:55:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.120805s][吞吐率：8.28req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000806s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.030250s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001236s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.029786s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:56:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.122161s][吞吐率：8.19req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001155s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.030981s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001310s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.040649s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:56:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.111982s][吞吐率：8.93req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001023s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.023315s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001206s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.041480s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000580s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:56:45+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.248915s][吞吐率：4.02req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001240s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.039445s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001208s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.161883s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000628s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:56:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.115982s][吞吐率：8.62req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000970s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.025812s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001167s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.034297s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-12-03T09:56:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.104353s][吞吐率：9.58req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001013s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.026380s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001080s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.036887s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:04:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：1.680881s][吞吐率：0.59req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.103588s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.038472s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002924s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.113814s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:05:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.262910s][吞吐率：3.80req/s] [内存消耗：2,879.23kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001005s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.037858s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041252s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.137209s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：2.632013s][吞吐率：0.38req/s] [内存消耗：2,878.80kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.126162s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.058597s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040108s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.062826s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:16:21+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：4.902465s][吞吐率：0.20req/s] [内存消耗：2,878.80kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.057861s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.132416s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.170118s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.214818s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:16:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：2.219370s][吞吐率：0.45req/s] [内存消耗：2,878.80kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000853s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.027872s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022343s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.870693s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:17:13+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：6.623255s][吞吐率：0.15req/s] [内存消耗：2,878.80kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.114350s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.050080s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.254427s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:1.913021s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:23:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：1.895807s][吞吐率：0.53req/s] [内存消耗：3,053.55kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.028266s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.047171s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021356s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.065173s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:24:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.206911s][吞吐率：4.83req/s] [内存消耗：2,878.78kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001588s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.023793s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001436s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.105334s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:24:19+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.637645s][吞吐率：1.57req/s] [内存消耗：2,878.78kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000721s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.112977s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.144811s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.328990s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:24:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.480503s][吞吐率：2.08req/s] [内存消耗：2,878.78kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000745s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.027277s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002433s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.399803s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.757907s][吞吐率：1.32req/s] [内存消耗：2,878.78kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001112s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.080597s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001785s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.617067s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.509406s][吞吐率：1.96req/s] [内存消耗：2,878.78kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001770s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.030728s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012640s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.244746s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.001045s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:24:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.346749s][吞吐率：2.88req/s] [内存消耗：2,878.78kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001203s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.182816s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001567s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.052622s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:24:46+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.255477s][吞吐率：3.91req/s] [内存消耗：2,879.07kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.006448s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.042015s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001787s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.048983s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:52:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：25.448665s][吞吐率：0.04req/s] [内存消耗：3,053.19kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.056066s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.319190s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.358763s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.270416s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:52:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：3.244976s][吞吐率：0.31req/s] [内存消耗：2,878.77kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.068141s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.262074s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028507s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.197396s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:52:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.638853s][吞吐率：1.57req/s] [内存消耗：2,878.77kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001268s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.402011s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011644s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.137044s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:56:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.956793s][吞吐率：1.05req/s] [内存消耗：3,053.41kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001592s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.057238s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011309s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.445524s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:57:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：3.740756s][吞吐率：0.27req/s] [内存消耗：3,053.41kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.014428s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.023310s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014553s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.038146s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2018-12-03T11:54:16+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：4.681275s][吞吐率：0.21req/s] [内存消耗：2,878.79kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.104996s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.109883s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.623146s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.423215s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.111679s ]
+---------------------------------------------------------------
+[ 2018-12-03T11:54:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/later.html
+[ info ] qiaoce.com/index/service/later.html [运行时间：1.638437s][吞吐率：0.61req/s] [内存消耗：3,465.82kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000761s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'later',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => 'http://qiaoce.com/',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->later[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\service\later.html [ array (
+  0 => 'data',
+  1 => 'code',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.020398s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052630s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.052281s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `name` = '后期制作' LIMIT 1 [ RunTime:0.023360s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2018-12-03T11:54:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/special.html
+[ info ] qiaoce.com/index/service/special.html [运行时间：0.779255s][吞吐率：1.28req/s] [内存消耗：3,464.55kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001067s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'special',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => 'http://qiaoce.com/',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->special[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\service\special.html [ array (
+  0 => 'data',
+  1 => 'code',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.038698s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.092220s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.172568s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `name` = '特效制作' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-12-03T11:54:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/special.html
+[ info ] qiaoce.com/index/service/special.html [运行时间：0.164485s][吞吐率：6.08req/s] [内存消耗：3,300.20kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001120s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'special',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => '*/*',
+  'referer' => 'http://qiaoce.com/index/service/special.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->special[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\service\special.html [ array (
+  0 => 'data',
+  1 => 'code',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.001682s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025175s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.032081s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `name` = '特效制作' LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2018-12-03T11:54:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/Service/service?link=18
+[ info ] qiaoce.com/index/service/Service/service?link=18 [运行时间：2.064735s][吞吐率：0.48req/s] [内存消耗：3,244.86kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.013804s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'Service',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://qiaoce.com/index/service/special.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'link' => '18',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->service[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001154s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.095416s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000362s ]
+[ error ] [0]Redis server went away[C:\wamp\www\new\application\index\controller\Service.php:41]
+---------------------------------------------------------------
+[ 2018-12-03T11:54:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/Service/service?link=19
+[ info ] qiaoce.com/index/service/Service/service?link=19 [运行时间：1.501338s][吞吐率：0.67req/s] [内存消耗：3,244.86kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.013297s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'Service',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://qiaoce.com/index/service/special.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'link' => '19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->service[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001365s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.037872s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000257s ]
+[ error ] [0]Redis server went away[C:\wamp\www\new\application\index\controller\Service.php:41]
+---------------------------------------------------------------
+[ 2018-12-03T11:54:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] qiaoce.com/index/index/index.html [运行时间：0.114249s][吞吐率：8.75req/s] [内存消耗：2,879.21kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001134s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => 'http://qiaoce.com/index/service/special.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.038681s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001299s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.034122s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:04:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：9.959507s][吞吐率：0.10req/s] [内存消耗：3,053.59kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.089711s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.7,ko;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'qiaoce.com',
+  'dnt' => '1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.265551s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.217219s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.435051s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000842s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:05:31+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：1.285523s][吞吐率：0.78req/s] [内存消耗：2,879.27kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001171s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.2.2457.400',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.940936s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001434s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.135648s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:07:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：3.130322s][吞吐率：0.32req/s] [内存消耗：2,879.14kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.037460s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.322208s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017952s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.071295s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:08:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：3.973510s][吞吐率：0.25req/s] [内存消耗：2,878.77kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.039822s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.282903s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014191s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.160986s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:09:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：3.196631s][吞吐率：0.31req/s] [内存消耗：2,878.89kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.059597s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.099472s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038812s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.143405s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:12:24+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：6.569900s][吞吐率：0.15req/s] [内存消耗：3,054.41kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.034506s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.131081s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037930s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.306103s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:14:19+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.350004s][吞吐率：2.86req/s] [内存消耗：3,054.55kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001099s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.027674s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001570s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.128121s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:14:48+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.334154s][吞吐率：2.99req/s] [内存消耗：3,054.45kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001412s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.155590s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001822s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.047535s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:15:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.201603s][吞吐率：4.96req/s] [内存消耗：2,879.02kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001275s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.046120s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001254s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.108579s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000784s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:15:27+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.429138s][吞吐率：2.33req/s] [内存消耗：2,879.20kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.002314s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.027397s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001164s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.282309s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:16:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.202093s][吞吐率：4.95req/s] [内存消耗：3,054.45kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000970s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.027969s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001686s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.086237s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:19:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：1.619587s][吞吐率：0.62req/s] [内存消耗：2,878.88kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.018000s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.056421s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014145s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.032530s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:20:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/about.html
+[ info ] qiaoce.com/index/about/about.html [运行时间：5.208097s][吞吐率：0.19req/s] [内存消耗：3,496.43kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001177s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'about',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => 'http://qiaoce.com/',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->about[ C:\wamp\www\new\application\index\controller\About.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\about\about.html [ array (
+  0 => 'data',
+  1 => 'code',
+  2 => 'intro',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.048338s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027445s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:2.263214s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `name` = '关于我们' LIMIT 1 [ RunTime:0.021026s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:2.024942s ]
+[ sql ] [ SQL ] SELECT * FROM `background` [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2018-12-03T14:20:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/video.html
+[ info ] qiaoce.com/index/about/video.html [运行时间：0.201718s][吞吐率：4.96req/s] [内存消耗：3,477.83kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000726s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => 'http://qiaoce.com/index/about/about.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->video[ C:\wamp\www\new\application\index\controller\About.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\about\video.html [ array (
+  0 => 'data',
+  1 => 'code',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.024294s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001308s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.050454s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `name` = '关于我们' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2018-12-03T15:39:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/earlier.html
+[ info ] qiaoce.com/index/service/earlier.html [运行时间：2.687884s][吞吐率：0.37req/s] [内存消耗：3,462.79kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.052724s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'earlier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->earlier[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\service\earlier.html [ array (
+  0 => 'data',
+  1 => 'code',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.071120s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062765s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.049372s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `name` = '前期拍摄' LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2018-12-03T15:39:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/Service/service?link=3
+[ info ] qiaoce.com/index/service/Service/service?link=3 [运行时间：1.518468s][吞吐率：0.66req/s] [内存消耗：3,244.94kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.002385s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'Service',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/index/service/earlier.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'link' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->service[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001848s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.064424s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000260s ]
+[ error ] [0]Redis server went away[C:\wamp\www\new\application\index\controller\Service.php:41]
+---------------------------------------------------------------
+[ 2018-12-03T15:55:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.365336s][吞吐率：2.74req/s] [内存消耗：2,879.02kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.002704s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.107575s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002959s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.035688s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000679s ]
+---------------------------------------------------------------
+[ 2018-12-03T15:55:50+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.176648s][吞吐率：5.66req/s] [内存消耗：3,054.05kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000796s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.025048s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001643s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.058052s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2018-12-03T15:55:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] qiaoce.com/ [运行时间：0.110518s][吞吐率：9.05req/s] [内存消耗：2,879.18kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001057s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wamp\www\new\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.037607s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001317s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.029603s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2018-12-03T15:55:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/earlier.html
+[ info ] qiaoce.com/index/service/earlier.html [运行时间：0.118910s][吞吐率：8.41req/s] [内存消耗：3,298.57kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001160s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'earlier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->earlier[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\service\earlier.html [ array (
+  0 => 'data',
+  1 => 'code',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.023606s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001356s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.034467s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `name` = '前期拍摄' LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2018-12-03T15:56:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/Service/service?link=3
+[ info ] qiaoce.com/index/service/Service/service?link=3 [运行时间：1.131837s][吞吐率：0.88req/s] [内存消耗：3,244.94kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000764s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'Service',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/index/service/earlier.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'link' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->service[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001150s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.052534s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000369s ]
+[ error ] [0]Redis server went away[C:\wamp\www\new\application\index\controller\Service.php:41]
+---------------------------------------------------------------
+[ 2018-12-03T15:57:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/earlier.html
+[ info ] qiaoce.com/index/service/earlier.html [运行时间：0.160756s][吞吐率：6.22req/s] [内存消耗：3,298.68kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001259s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'earlier',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->earlier[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/index\view\service\earlier.html [ array (
+  0 => 'data',
+  1 => 'code',
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.002615s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001380s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.039939s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `name` = '前期拍摄' LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2018-12-03T15:57:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/service/Service/service?link=3
+[ info ] qiaoce.com/index/service/Service/service?link=3 [运行时间：0.314356s][吞吐率：3.18req/s] [内存消耗：3,214.93kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001520s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'service',
+    2 => 'Service',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/index/service/earlier.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'link' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Service->service[ C:\wamp\www\new\application\index\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001140s ] mysql:dbname=vfxcity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.097976s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 0 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 2 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 7 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 17 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 25 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 28 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 29 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 30 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `pid` = 33 [ RunTime:0.000421s ]

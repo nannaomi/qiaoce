@@ -1,0 +1,735 @@
+---------------------------------------------------------------
+[ 2018-12-12T10:11:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] qiaoce.com/admin [运行时间：3.496101s][吞吐率：0.29req/s] [内存消耗：2,059.15kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.167480s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp\www\new\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\index\index2.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.108475s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:11:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ info ] qiaoce.com/admin/index/welcome.html [运行时间：0.343447s][吞吐率：2.91req/s] [内存消耗：1,986.34kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001688s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ C:\wamp\www\new\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.008085s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:11:02+08:00 ] 127.0.0.1 127.0.0.1 GET /lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] qiaoce.com/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：1.396048s][吞吐率：0.72req/s] [内存消耗：1,688.50kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000729s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:29:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index
+[ info ] qiaoce.com/admin/login/index [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：2,011.26kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001497s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp\www\new\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp\www\new\public/../application/admin\view\login\index.html[C:\wamp\www\new\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-12-12T10:29:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index
+[ info ] qiaoce.com/admin/login/index [运行时间：0.302988s][吞吐率：3.30req/s] [内存消耗：2,133.79kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001146s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp\www\new\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.002225s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:33:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index
+[ info ] qiaoce.com/admin/login/index [运行时间：3.021614s][吞吐率：0.33req/s] [内存消耗：2,197.95kb] [文件加载：53]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001132s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp\www\new\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function U()[C:\wamp\www\new\runtime\temp\a31d29ccf912fe033dbf21faf0bfa44f.php:24]
+---------------------------------------------------------------
+[ 2018-12-12T10:35:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index
+[ info ] qiaoce.com/admin/login/index [运行时间：3.085157s][吞吐率：0.32req/s] [内存消耗：2,197.00kb] [文件加载：53]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001101s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp\www\new\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function U()[C:\wamp\www\new\runtime\temp\a31d29ccf912fe033dbf21faf0bfa44f.php:35]
+---------------------------------------------------------------
+[ 2018-12-12T10:36:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index
+[ info ] qiaoce.com/admin/login/index [运行时间：0.065542s][吞吐率：15.26req/s] [内存消耗：2,138.82kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000864s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp\www\new\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.002399s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:36:09+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/bootstrap/css/bootstrap.min.css
+[ info ] qiaoce.com/static/js/bootstrap/css/bootstrap.min.css [运行时间：0.076805s][吞吐率：13.02req/s] [内存消耗：1,688.93kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001367s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:36:09+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/style.css
+[ info ] qiaoce.com/static/css/style.css [运行时间：0.052743s][吞吐率：18.96req/s] [内存消耗：1,688.60kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001573s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'style.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+info ] [ PARAM ] array (
+  'css' => 'font-awesome.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:36:09+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/pace/pace.css
+[ info ] qiaoce.com/static/js/pace/pace.css [运行时间：0.070229s][吞吐率：14.24req/s] [内存消耗：1,688.58kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.002072s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'pace',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:36:09+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/animate-css/animate.min.css
+[ info ] qiaoce.com/static/js/animate-css/animate.min.css [运行时间：0.084333s][吞吐率：11.86req/s] [内存消耗：1,688.66kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.004204s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'animate-css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:36:09+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/jquery/jquery-1.11.1.min.js
+[ info ] qiaoce.com/static/js/jquery/jquery-1.11.1.min.js [运行时间：0.074466s][吞吐率：13.43req/s] [内存消耗：1,688.46kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.007989s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:36:09+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/pace/pace.min.js
+[ info ] qiaoce.com/static/js/pace/pace.min.js [运行时间：0.035632s][吞吐率：28.06req/s] [内存消耗：1,688.41kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001460s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'pace',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:38:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] qiaoce.com/admin [运行时间：0.193341s][吞吐率：5.17req/s] [内存消耗：2,059.14kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001015s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp\www\new\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\index\index2.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.021075s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:38:27+08:00 ] 127.0.0.1 127.0.0.1 GET /lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] qiaoce.com/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.035412s][吞吐率：28.24req/s] [内存消耗：1,688.50kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001234s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:38:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ info ] qiaoce.com/admin/index/welcome.html [运行时间：0.107756s][吞吐率：9.28req/s] [内存消耗：1,986.30kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001134s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ C:\wamp\www\new\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.007727s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:38:27+08:00 ] 127.0.0.1 127.0.0.1 GET /lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] qiaoce.com/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.023013s][吞吐率：43.45req/s] [内存消耗：1,688.50kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000861s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index
+[ info ] qiaoce.com/admin/login/index [运行时间：0.075019s][吞吐率：13.33req/s] [内存消耗：2,138.97kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.002080s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp\www\new\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\wamp\www\new\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\WriteHtmlCacheBehavior @view_filter [ RunTime:0.002799s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/bootstrap/css/bootstrap.min.css
+[ info ] qiaoce.com/static/js/bootstrap/css/bootstrap.min.css [运行时间：0.036721s][吞吐率：27.23req/s] [内存消耗：1,689.18kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001471s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/font-awesome/css/font-awesome.min.css
+[ info ] qiaoce.com/static/js/font-awesome/css/font-awesome.min.css [运行时间：0.042494s][吞吐率：23.53req/s] [内存消耗：1,689.03kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.001754s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'font-awesome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'font-awesome.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/animate-css/animate.min.css
+[ info ] qiaoce.com/static/js/animate-css/animate.min.css [运行时间：0.023509s][吞吐率：42.54req/s] [内存消耗：1,688.77kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000919s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'animate-css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/pace/pace.css
+[ info ] qiaoce.com/static/js/pace/pace.css [运行时间：0.022594s][吞吐率：44.26req/s] [内存消耗：1,688.71kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000762s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'pace',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/style.css
+[ info ] qiaoce.com/static/css/style.css [运行时间：0.022952s][吞吐率：43.57req/s] [内存消耗：1,688.70kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000744s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'style.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/jquery/jquery-1.11.1.min.js
+[ info ] qiaoce.com/static/js/jquery/jquery-1.11.1.min.js [运行时间：0.026386s][吞吐率：37.90req/s] [内存消耗：1,688.71kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000729s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-12T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/pace/pace.min.js
+[ info ] qiaoce.com/static/js/pace/pace.min.js [运行时间：0.024801s][吞吐率：40.32req/s] [内存消耗：1,688.61kb] [文件加载：41]
+[ info ] [ BEHAVIOR ] Run app\index\behavior\ReadHtmlCacheBehavior @app_init [ RunTime:0.000737s ]
+[ info ] [ LANG ] C:\wamp\www\new\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'pace',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'qiaoce.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qiaoce.com/admin/login/index',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

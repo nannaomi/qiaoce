@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta name="description" content="国安新桥（北京）影视传媒投资有限公司，是中信国安集团布局影视产业、打造国际化电影工业体系的
+    重要举措，是面向国际影视产业的重要平台。公司自2014年建立以来，作为国安新桥影视特效基地的投资运营主体，一直致力于打造国际化的
+    电影特效及影视后期制作产业核心力量。基地不仅配备了国际一流的全数字、网络化、集群化的电影特效制作硬件以及影视后期音视频制作系
+    统等，而且凭借丰富的国内外行业资源，与影视各界人士构建多方合作。">
+    <meta name="keywords" content="影棚租赁,数字棚,绿幕棚,动捕棚,后期制作,影视培训,影视特效,中国特效公司,视效,视效制作,
+    特效,特效制作,特效公司,特效解析,电影后期,CG,CG制作,三维制作，三维，数字制作,国内特效,外景租赁"/>   
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="shortcut icon" type="image/x-icon" href="/static/home/images/ico.ico" media="screen">
+   <title>中信国安新桥影视基地-关于我们</title>
+    <link rel="stylesheet" type="text/css" href="/static/home/css/comm.css"/>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js "></script>
+    <!--<script  src="/static/home/js/comm.js "></script>-->
+
+</head>
+
+<style>
+    .life_bg{position:fixed; z-index: -9999;width: 100%; height: 100%; left: 0; top:0;}
+    .abu_main{width: 16.89rem;height: 7.73rem;position: relative;top: 1.97rem;margin: 0 auto;background-color: white}
+    .abu_main ul li{width: 5.63rem;height: 7.15rem;text-align: center}
+    .abu_main ul li img{width: 5.63rem;height:auto}
+    .abu_main ul li p{width: auto;height:auto;color: #000;margin: auto .67rem;text-indent: .32rem;text-align: left;font-size: .15rem;
+        line-height: .24rem;letter-spacing: .02rem}
+    .abu_main ul li:nth-child(2) p{margin: auto .32rem .25rem .32rem;}
+    .abu_main ul li b{color: #c9161c;font-family: 'Adobe 黑体 Std R';font-size: .19rem;margin: .32rem auto;display: inline-block}
+
+    .big_ul li:nth-child(9) a{color:#c72028}
+    .two_nav ul li:nth-child(1){background-color: rgba(255,255,255,.15)}
+</style>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    document.write("<div style='position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: 100%; padding-top: 200px;  background-color: #fff'><P  style='font-size: 16px; text-align: center'>您正在使用 Internet Explorer 低版本，在本页面的显示效果可能有差异，建议您升级到IE9及以上版本或使用其他浏览器</P></div>")
+</script>
+<![endif]-->
+<body>
+<header>
+    <a href="/index/index/index.html" ><div class="oherlogo"></div></a>
+    <div class="nav_box">
+        <ul class="big_ul">
+                        <li><a href='/index/index/index.html'  class="link" value="1" >首页</a></li>
+                        <li><a href='/index/service/earlier.html'  class="link" value="2" >前期拍摄</a></li>
+                        <li><a href='/index/service/later.html'  class="link" value="7" >后期制作</a></li>
+                        <li><a href='/index/service/special.html'  class="link" value="17" >特效制作</a></li>
+                        <li><a href='/index/service/matching.html'  class="link" value="25" >配套服务</a></li>
+                        <li><a href='/index/index/project.html'  class="link" value="28" >项目展示</a></li>
+                        <li><a href='/index/college/index.html'  class="link" value="29" >影视学院</a></li>
+                        <li><a href='/index/news/news.html'  class="link" value="30" >新闻中心</a></li>
+                        <li><a href='/index/about/about.html'  class="link" value="33" >关于我们</a></li>
+                    </ul>
+    </div>
+    <div class="lan">中文 / EN</div>
+</header>
+
+
+
+<div class="two_nav">
+    <ul >
+                <li><a href="/index/about/about.html">关于我们</a></li>
+                <li><a href="/index/about/join.html">加入我们</a></li>
+                <li><a href="/index/about/contact.html">联系我们</a></li>
+                <li><a href="/index/about/baselife.html">基地生活</a></li>
+                <li><a href="/index/about/video.html">企业宣传片</a></li>
+            </ul>
+</div>
+
+<div class="life_bg" ><img src="/static/home/images/aboutus_bg.jpg" width="100%" height="100%"/></div>
+<div class="abu_main" >
+    <ul>
+        <li>
+            <img src="/upload/background/20180808\bcf042100006b02b4f6ecbdf55d5cacb.jpg" alt="集团背景">
+              <b>集团背景</b>
+            <p>       中信国安集团有限公司是中国中信集团子公司。国安集团自成立以来，开拓创新，锐意进取，永争第一，抓住战略发展机遇，不断进行产业结构调整，实现了快速发展。2014年，公司完成了混合所有制改制，目前业务涉及金融、资源开发、信息网络、文化旅游、城市运营、消费品、健康养老等领域。作为大型综合性企业集团，国安集团为亚太经合组织（APEC）中国企业联席会议成员企业，中国企业联合会、中国企业家协会成员企业。“国安”商标为著名商标和知名品牌。截至2017年，国安集团总资产为2106亿元。</p>
+        </li>
+        <li>
+            <b>基地简介</b>
+            <p>中信国安新桥影视基地，由中信国安集团在京津冀核心区投资建设。作先进的电影全流程制作平台，基地配备了国际一流的全数字、网络化、集群化的电影前期拍摄、特效制作及影视后期音视频制作系统，涵盖了大型摄影棚、动作捕捉棚、绿幕抠像棚、电影调色棚、音乐录音棚、杜比全景声混录棚以及特效后期制作区、集群渲染区等。为满足影视行业的版权保护需求，基地参照美国电影协会标准，建设了封闭内网环境下的大型数据存储中心。
+<br/>
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中信国安新桥影视基地可提供从影棚及外景场地租赁、后期制作、特效制作、制片协作到住宿餐饮、后勤支持等全方位、高质量的电影制作全流程服务。</p>
+            <img src="/upload/background/20180808\cd1c2bf3bb4bced4eba4dd2432e215d4.jpg" alt="基地简介">
+        </li>
+        <li>
+            <img src="/upload/background/20180808\aa4c70901eb2438508aee377229b6175.jpg" alt="一城概况">
+            <b>一城概况</b>
+            <p> 中信国安第一城座落于京、津、冀交界的黄金地带——河北香河经济技术开发区，距北京市中心50公里，天津市中心70公里，总占地3320亩，总投资超过80亿元。第一城仿照明清时期北京都城的城垣风貌，采用“缩地不缩景”的方式，按照1：1的比例复原了老北京“内九外七”的城垣格局，淋漓尽致地展现出古都北京的穿越之美。目前，中信国安第一城已经发展成为一座集会议展览、旅游观光、休闲度假、娱乐健身、美食购物、影视拍摄等多种功能于一体的大型综合性会展中心。</p>
+
+        </li>
+    </ul>
+</div>
+<footer >
+    <p>
+        Copyright ©vfxcity.com. All Rights Reserved. 国安新桥（北京）影视传媒有限公司 版权所有 &nbsp;&nbsp;京ICP备14058800号 &nbsp;&nbsp;京公网安备11010502035066</p>
+</footer>
+
+</body>
+<script>
+    document.documentElement.style.fontSize=document.documentElement.clientWidth / 1920 * 100 + 'px';
+</script>
+</html>

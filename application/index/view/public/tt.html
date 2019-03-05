@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js "></script>
+<style>
+    *{ margin:0; padding:0; list-style:none}
+
+    .nav{ width:100%; height:45px; background-color:#06F}
+
+    .naver{ width:1200px; height:45px; margin:0 auto; position:relative;background-color: red}
+
+    .ul{ position:relative}
+
+    .naver li{ float:left; padding:0 2px; }
+
+    .naver li a{ width:120px; height:45px; display:block; text-align:center; line-height:45px; color:#FFF}
+
+    .box{ width:1200px; height:300px; background:#FC3; position:absolute; top:45px; left:0; display:none}
+
+    .dis{ display:none}
+
+    .bg{ width:120px; height:45px;background:#0CF; position:absolute; top:0; left:0}
+</style>
+<body>
+
+<div class="nav">
+    <div class="naver">
+        <ul>
+            {foreach name="data" item="data"}
+            <li>
+                <a href="#">{$data.name}</a>
+                <div class="box dis">
+                    {foreach name="data.cate" item="cate"}
+                    <a href="#">{$cate.name}</a>
+                    {/foreach}
+                </div>
+            </li>
+            {/foreach}
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    $(function(){
+
+        $(".naver li").hover(
+
+            function(){
+                $(this).children(".box").css("display","block");
+            },
+            function(){
+                $(this).children(".box").css("display","none");
+
+            }
+
+        );
+
+    });
+</script>
+
+
+
+
+
+
+<div style="width:100%; height:.52rem;line-height: .52rem;display: none;
+                  position:absolute;top:1.13rem;left:0;font-size:0;text-align: center;">
+    {foreach name="data.cate" item="cate"}
+    <a style="color: #000;border: .01rem solid red;font-size: .19rem;padding: .16rem .6rem;" >{$cate.name}</a>
+    {/foreach}
+</div>
+
+
+
+
+<!--{foreach name="data" item="data"}-->
+<li>
+    <a href="#" >123</a>
+    <!--<a href="#" >{$data.name}</a>-->
+    <div style="position: absolute;width: 3rem;height: 1rem;border: 1px solid red;top:1rem;"></div>
+</li>
+<!--{/foreach}-->
+
+
+
+
+<header>
+    <div class="oherlogo"></div>
+    <ul>
+        {foreach name="data" item="data"}
+        <li>
+            <a >{$data.name}</a>
+            <div style="width:100%; height:.52rem;line-height: .52rem;background-color: blanchedalmond;
+                  position:absolute;left:0;top:1.13rem;font-size: .19rem;margin: 0 auto;text-align: center;">
+                {foreach name="data.cate" item="cate"}
+                <a style="color: #000;border: .01rem solid #a6a5a3;width: 2rem;height:.52rem;
+                      background-color: #a6a5a3;display: block;float: left;  " >{$cate.name}</a>
+                {/foreach}
+            </div>
+        </li>
+        {/foreach}
+    </ul>
+    <div class="lan">中文 / EN</div>
+</header>
+
+
+
+<script>
+    $(function(){
+        $("header li>a").click(function () {
+
+            $(this).next("div").css("display","block");
+
+
+//            alert(12);
+        })
+
+//        $("header li").hover(
+//
+//            function(){
+//                $(this).children("div").css("display","block");
+//            },
+//            function(){
+//                $(this).children("div").css("display","none");
+//
+//            }
+//
+//        );
+
+    });
+</script>

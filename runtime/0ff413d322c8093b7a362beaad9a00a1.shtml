@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>国安新桥后台管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/hui/lib/Hui-iconfont/1.0.8/iconfont.css" />
+
+</head>
+<style>
+    .login-page{ background:url("/static/admin/login-bg.jpg") no-repeat;background-position: center center;background-attachment: fixed;background-size: cover;  }
+    .full-content-center {width: 100%;padding: 5px 0;max-width: 500px;margin: 11.5% auto;text-align: center;}
+    h1.logo-name{margin: 0 auto;line-height: 1;font-family: inherit;color: #fff;}
+    .login-wrap { margin: 20px 10%; text-align: left;background: rgba(255,255,255,0.1); padding: 20px 20px; color: #fff;position: relative}
+    .overlay{float: left;background-color:#ffffff;height: 41px; margin-left: 30px; }
+    .overlay i{font-size: 20px;color: #aaa;line-height: 44px;}
+    .formControls{display: inline-block;width: 78%}
+    .input-text{border-width: 0;}
+    .input-text:hover{border: 0;outline:none;}
+    .verify{display:block;float: right;cursor:pointer;width:50%;height: 41px;}
+    .btn{background-color: rgba(255,255,255,.15);color: #ffffff;border: 0;}
+   .btn:hover{background-color: rgba(255,255,255,.3)}
+</style>
+
+<body class="login-page">
+ <div class="full-content-center">
+     <p class="text-center">
+       <h1 class="logo-name">国安新桥后台管理系统</h1>
+     </p>
+
+   <div class="login-wrap">
+       <form class="form form-horizontal" action="/qiaoce/public/index.php/admin/login/dologin.html" method="post">
+
+           <div class="row cl">
+               <div class="overlay" ><i class="Hui-iconfont">&nbsp;&#xe60a;</i></div>
+               <div  class="formControls">
+                <input type="text" class="input-text size-L" name='username' placeholder="用户名" id="username" >
+               </div>
+           </div>
+
+           <div class="row cl">
+               <div class="overlay" ><i class="Hui-iconfont">&nbsp;&#xe63f;</i></div>
+               <div class="formControls">
+                   <input id="password" name="password" type="password" class="input-text size-L" maxlength="16" placeholder="密码"  >
+               </div>
+           </div>
+           <div class="row cl">
+               <div class="overlay" ><i class="Hui-iconfont">&nbsp;&#xe60e;</i></div>
+               <div class="formControls">
+                    <input id="code" name="code"  maxlength="5" class="input-text size-L" type="text" placeholder="验证码" style="width:40%;">
+                   <img src="\captcha" alt="点击更新验证码" onclick="reloadcode(this)" class="verify" />
+
+                   <!--<img src="/qiaoce/public/index.php/captcha.html" onclick="this.src='/captcha'" alt="验证码" title="点击直接刷新" >-->
+                   <!--<img src="/qiaoce/public/index.php/captcha.html" onclick="this.src='/captcha?id='+Math.random()" alt="验证码" title="点击刷新" style="cursor: pointer">-->
+               </div>
+           </div>
+
+           <div class="row cl" style="text-align: center">
+               <div class="formControls"  >
+                   <button class="btn radius size-L aa" style="width: 60%" >&nbsp;&nbsp;登&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;&nbsp;</button>
+               </div>
+           </div>
+       </form>
+   </div>
+
+ </div>
+
+</body>
+<script type="text/javascript" src="__STATIC__/hui/lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    function reloadcode(obj) {
+        obj.src="/qiaoce/public/index.php/captcha.html"+"/+?id="+Math.random();
+    }
+</script>
+
+</html>
