@@ -1,17 +1,25 @@
 <?php
 namespace app\admin\controller;
-use think\Controller;
 use think\Db;
 use app\admin\model\Cate as Category;
 use app\admin\validate\Cate as Catval;
-class Cate extends Controller
+class Cate extends Common
 {
+//    public function __construct()
+//    {
+//        $username=Session::get('user_auth.username');
+//        if($username!='root'){
+//            return $this->redirect("index/auto");
+//        }
+//    }
     public function cate(){
+        $this->auto();
         $cat = new Category();
         $this->assign('catelist',$cat->gettree());
         return $this->fetch();
     }
-    public function add(){
+    public function cateAdd(){
+        $this->auto();
         $cat = new Category();
        $this->assign('catelist',$cat->gettree());
         return $this->fetch();
@@ -41,7 +49,7 @@ public function cate_add_ajax(){
         return "请正确上传！！！";
     }
 }
-public function edit(){
+public function cateEdit(){
     $cat = new Category();
     $this->assign('code',db("cate")->where('id',input('pid'))->find());
     $this->assign('result',db("cate")->find(input('id')));

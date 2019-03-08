@@ -1,13 +1,19 @@
 <?php
 namespace app\admin\controller;
-use think\Controller;
 class Index extends Common
 {
-
     public function index()
     {
        return $this->fetch();
     }
+    public function auto(){
+       return $this->fetch();
+    }
+
+
+
+
+
 
 
 
@@ -20,8 +26,7 @@ class Index extends Common
     }
 
 
-    public function productbrand()
-    {
+    public function productbrand(){
         return $this->fetch();
     }
  public function bei_add(){
@@ -34,6 +39,7 @@ class Index extends Common
     public function recruitadd(){
         return $this->fetch();
     }
+
     //业务图片管理
     public function picturelist(){
         return $this->fetch();

@@ -1,0 +1,87 @@
+{include file="public/header" /}
+
+<body>
+<article class="page-container">
+  <form  method="post" class="form form-horizontal" id="form">
+
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-3">项目名称：</label>
+      <div class="formControls col-xs-8 col-sm-9">
+        <input type="text" class="input-text" value="" placeholder="" id="username" name="name">
+      </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-3">项目海报：</label>
+      <div class="formControls col-xs-8 col-sm-9"> <span class="btn-upload form-group">
+				<input class="input-text upload-url" type="text" name="" id="uploadfile" placeholder="只允许添加jpg、png、jpeg格式的图片，切大小不允许超过50KB"  style="width:455px">
+				<a href="javascript:void(0);" class="btn btn-primary radius upload-btn"><i class="Hui-iconfont">&#xe642;</i> 浏览图片</a>
+				<input type="file" multiple name="img[]" class="input-file">
+				</span> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-3">遮盖图：</label>
+      <div class="formControls col-xs-8 col-sm-9"> <span class="btn-upload form-group">
+				<input class="input-text upload-url" type="text" name="" placeholder="只允许添加jpg、png、jpeg格式的图片，切大小不允许超过50KB" style="width:455px">
+				<a href="javascript:void(0);" class="btn btn-primary radius upload-btn"><i class="Hui-iconfont">&#xe642;</i> 浏览图片</a>
+				<input type="file" multiple name="img[]" class="input-file">
+				</span> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-3">呈现方式：</label>
+      <div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
+				<select class="select" size="1" name="display">
+					<option value="0" selected>电影</option>
+					<option value="1">电视剧</option>
+				</select>
+				</span> </div>
+    </div>
+    <div class="row cl">
+      <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+        <a onclick="product_add()" class="btn btn-primary radius" href="javascript:;"> 保存并发布</a>
+        <a onClick="layer_close();" class="btn btn-default radius" >&nbsp;&nbsp;取消&nbsp;&nbsp;</a>
+      </div>
+    </div>
+  </form>
+</article>
+
+</body>
+{include file="public/footer" /}
+
+<script type="text/javascript">
+//        项目-增加
+        function product_add(){
+            var form = new FormData($("#form")[0]);
+            $.ajax({
+                url: '{:url("ajaxAdd")}',
+                type: 'post',
+                data: form,
+                processData: false,  // 告诉jQuery不要去处理发送的数据
+                contentType: false,   // 告诉jQuery不要去设置Content-Type请求头
+                dataType: 'json',
+                success:function (data) {
+                    layer.msg(data,{icon:2,time:1500});
+                },error: function (XmlHttpRequest, textStatus, errorThrown) {
+                    layer.msg('添加成功！', {icon: 1, time: 1300}, function () {
+                        var index = parent.layer.getFrameIndex(window.name);
+                        parent.location.reload(); //刷新父页面
+                        parent.layer.close(index);
+                    });
+                }
+            });
+
+
+
+
+
+        }
+
+
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

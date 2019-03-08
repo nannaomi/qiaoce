@@ -1,8 +1,7 @@
 <?php
 namespace app\admin\controller;
-use think\Controller;
 use app\admin\validate\Joinus as Join;
-class Joinus extends Controller
+class Joinus extends Common
 {
 //    首页
     public function index()

@@ -1,10 +1,9 @@
 <?php
 namespace app\admin\controller;
-use think\Controller;
 use think\Db;
 use think\Request;
 use think\Image;
-class Business extends Controller
+class Business extends Common
 {
 /*
  * 后台做CURD功能时，直接修改redis缓存
@@ -48,10 +47,10 @@ class Business extends Controller
         $count=db('business')->count();
         $this->assign("count",$count);
         $this->assign("data",$data);
-       return $this->fetch("business_lines");
+       return $this->fetch("photo");
     }
 
-    public function pictureadd(){
+    public function photoAdd(){
         $arr=['前期拍摄','后期制作','特效制作','配套服务'];
         $key=array();
         foreach ($arr as $k=>$v){
@@ -62,6 +61,8 @@ class Business extends Controller
         $this->assign("data",$code);
         return $this->fetch();
     }
+
+
 
     public function picAdd(Request $request){
         if(request()->isPost()){
@@ -108,7 +109,7 @@ class Business extends Controller
 
 
 //    相册集合增加
-     public function photoadd(Request $request){
+     public function pictureAdd(Request $request){
 
          $parm=$request->param();
          $this->assign('parm',$parm);

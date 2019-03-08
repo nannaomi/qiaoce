@@ -1,0 +1,84 @@
+﻿{include file="public/header" /}
+
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 图片管理 <span class="c-gray en">&gt;</span> 业务管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+	<div class="cl pd-5 bg-1 bk-gray mt-20">
+		<span class="l">
+			<a class="btn btn-primary radius" onclick="picture_add('添加相册','{:url(\'photoAdd\')}','','',800)" href="javascript:;">
+				<i class="Hui-iconfont">&#xe600;</i>
+				添加相册
+			</a>
+		</span>
+		<span class="r">共有相册分类：<strong>{$count}</strong> 个</span> </div>
+	<div class="mt-20">
+		<table class="table table-border table-bordered table-bg table-hover">
+			<thead>
+				<tr class="text-c">
+					<th width="100">相册分类</th>
+					<th width="100">封面图</th>
+					<th width="100">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			{foreach name="data" item="vo"}
+				<tr class="text-c">
+					<input type="hidden" value="{$vo.id}">
+					<td class="text-l"><a class="maincolor" href="javascript:;" onClick="picture_show('图库编辑','{:url(\'pictureshow\',array(\'id\'=>$vo.id,\'cid\'=>$vo.cid))}','10001')">{$vo.name}</a></td>
+					<td><img height="100" class="picture-thumb" src="__IMG__/business/{$vo.pic}"></td>
+					<td class="td-manage">
+						<a style="text-decoration:none" class="ml-5" onClick="photo_edit('相册编辑','{:url(\'photoEdit\',array(\'id\'=>$vo.id))}',800,600)" href="javascript:;" title="编辑">
+							<i class="Hui-iconfont">&#xe6df;</i></a>
+						<a style="text-decoration:none" class="ml-5" onClick="photo_del(this,'{$vo.id}')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+				</tr>
+		    {/foreach}
+			</tbody>
+		</table>
+	</div>
+</div>
+</body>
+{include file="public/footer" /}
+
+<script >
+// 图片添加
+function picture_add(title,url,w,h){
+    layer_show(title,url,w,h);
+}
+
+/*图片-查看*/
+function picture_show(title,url,id){
+    var index = layer.open({
+        type: 2,
+        title: title,
+        content: url
+    });
+    layer.full(index);
+}
+/*相册-编辑*/
+function photo_edit(title,url,w,h){
+    layer_show(title,url,w,h);
+}
+/*相册-删除*/
+function photo_del(obj,id){
+	layer.confirm('确定要清空整个栏目并删除此分类吗？',function(index){
+		$.ajax({
+			type: 'POST',
+            url: "{:url('photoDel')}",
+			data: {'id':id},
+			dataType: 'json',
+			success: function(data){
+                layer.msg(data,{icon:2,time:1500});
+//
+			}
+			, error:function(data) {
+                $(obj).parents("tr").remove();
+                layer.msg('已删除!',{icon:1,time:1000});
+			}
+		});
+	});
+}
+
+
+
+
+</script>

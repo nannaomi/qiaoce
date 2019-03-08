@@ -1,0 +1,66 @@
+{include file="public/header" /}
+
+<body>
+<div class="page-container">
+    <form action="" method="post" class="form form-horizontal" id="form">
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">背景名称：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="请输入4个字符" id="title" name="name">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">背景图片：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+               <span class="btn-upload form-group">
+				<input class="input-text upload-url" type="text"  id="uploadfile" readonly nullmsg="请添加图片！" placeholder="请上传jpg、png、jpeg格式图片,且大小不允许超过110KB" style="width:400px">
+				<a href="javascript:void(0);" class="btn btn-primary radius upload-btn"><i class="Hui-iconfont">&#xe642;</i> 浏览图片</a>
+				<input type="file" multiple name="img" class="input-file"  >
+				</span>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">详细内容：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <textarea name="content" cols="" rows="" class="textarea" placeholder=""></textarea>
+            </div>
+        </div>
+        <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <a onclick="save_add()" class="btn btn-primary radius" href="javascript:;"> 保存并发布</a>
+                <a onClick="layer_close();" class="btn btn-default radius" >&nbsp;&nbsp;取消&nbsp;&nbsp;</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+{include file="public/footer" /}
+
+
+
+<script>
+   function save_add(){
+
+       var form = new FormData($("#form")[0]);
+       $.ajax({
+           url: '{:url("synopsisAdd")}',
+           type: 'post',
+           data: form,
+           processData: false,  // 告诉jQuery不要去处理发送的数据
+           contentType: false,   // 告诉jQuery不要去设置Content-Type请求头
+           dataType: 'json',
+           success:function (data) {
+               layer.msg(data,{icon:2,time:1500});
+           }
+           ,error: function (XmlHttpRequest, textStatus, errorThrown) {
+               layer.msg('添加成功！', {icon: 1, time: 1300}, function () {
+                   var index = parent.layer.getFrameIndex(window.name);
+                   parent.location.reload(); //刷新父页面
+                   parent.layer.close(index);
+               });
+           }
+       });
+   }
+
+</script>

@@ -6,6 +6,7 @@ use think\Session;
 class Login extends Controller
 {
     public function index(){
+
        return $this->fetch();
     }
 
@@ -25,8 +26,12 @@ class Login extends Controller
             }
             $auth = array('userid' => $code['userid'], 'username' => $code['username'],'logintime' => time(),);
             Session::set('user_auth',$auth);
-            $this->success('登录成功', 'index/index');
+            $this->success('登录成功', '/admin/index');
 
         }
+   }
+   public function checkout(){
+       Session::set('user_auth',null);
+       $this->success('退出成功', 'Login/index');
    }
 }

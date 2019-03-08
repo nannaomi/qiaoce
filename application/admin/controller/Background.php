@@ -1,19 +1,18 @@
 <?php
 namespace app\admin\controller;
-use think\Controller;
 use think\Request;
 use think\Image;
 use app\admin\validate\Back;
-class Background extends Controller
+class Background extends Common
 {
 //    首页
     public function index(){
        $this->assign('data',db("background")->order('id desc')->select());
-       return $this->fetch('productbrand');
+       return $this->fetch('background');
     }
 
 //    添加页面
-    public function backgroudadd(){
+    public function backgroundAdd(){
        return $this->fetch();
     }
 
@@ -48,7 +47,7 @@ class Background extends Controller
     }
 
 //    编辑页面
-    public function back_edit(){
+    public function backgroundEdit(){
         $data=db("background")->find(input('id'));
         $data['content']=str_replace("<br/>","\n",$data['content']);
         $this->assign("data",$data);

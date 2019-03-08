@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:76:"C:\wamp\www\qiaoce\public/../application/admin\view\article\articleedit.html";i:1550719377;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:76:"C:\wamp\www\qiaoce\public/../application/admin\view\article\articleedit.html";i:1550719439;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -110,18 +110,14 @@
           contentType: false,   // 告诉jQuery不要去设置Content-Type请求头
           dataType: 'json',
           success: function (json) {
-
-              console.log(json);
-
-//              layer.msg(json, {icon: 2, time: 1500});
-       }
-// ,error: function (XmlHttpRequest, textStatus, errorThrown) {
-//              layer.msg('修改成功！', {icon: 1, time: 1300}, function () {
-//                  var index = parent.layer.getFrameIndex(window.name);
-//                  parent.location.reload(); //刷新父页面
-//                  parent.layer.close(index);
-//              });
-//         }
+              layer.msg(json, {icon: 2, time: 1500});
+       },error: function (XmlHttpRequest, textStatus, errorThrown) {
+              layer.msg('修改成功！', {icon: 1, time: 1300}, function () {
+                  var index = parent.layer.getFrameIndex(window.name);
+                  parent.location.reload(); //刷新父页面
+                  parent.layer.close(index);
+              });
+         }
       })
   }
 

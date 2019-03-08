@@ -91,7 +91,7 @@ return [
     // 是否开启路由
     'url_route_on'           => true,
     // 路由使用完整匹配
-    'route_complete_match'   => false,
+    'route_complete_match'   => true,
     // 路由配置文件（支持配置多个）
     'route_config_file'      => ['route'],
     // 是否强制使用路由
@@ -237,6 +237,13 @@ return [
         'type'      => 'bootstrap',
         'var_page'  => 'page',
         'list_rows' => 15,
+    ],
+//    以下为自添加404页面
+    'http_exception_template' => [
+        // 定义404错误的重定向页面地址
+        404 =>  Env::get('app_path') . 'index/view/exception_html/404.html',
+        500 =>  Env::get('app_path') . 'index/view/exception_html/500.html',
+//        500 => APP_PATH . 'index/view/exception_html500.html',
     ],
 
    //以下为静态缓存配置

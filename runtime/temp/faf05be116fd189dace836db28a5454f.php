@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"C:\wamp\www\qiaoce\public/../application/admin\view\login\index.html";i:1546917964;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"C:\wamp\www\qiaoce\public/../application/admin\view\login\index.html";i:1551948135;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -32,7 +32,7 @@
      </p>
 
    <div class="login-wrap">
-       <form class="form form-horizontal" action="<?php echo url('Login/doLogin'); ?>" method="post">
+       <form class="form form-horizontal" action="/admin/login" method="post">
 
            <div class="row cl">
                <div class="overlay" ><i class="Hui-iconfont">&nbsp;&#xe60a;</i></div>

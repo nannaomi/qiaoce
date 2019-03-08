@@ -1,0 +1,64 @@
+{include file="public/header" /}
+
+<body>
+
+<div class="page-container">
+
+	<form action="" method="post" class="form form-horizontal" id="form-category-add" >
+				<div class="row cl">
+					<label class="form-label col-xs-4 col-sm-3">上级栏目：</label>
+					<div class="formControls col-xs-8 col-sm-9">
+						<span class="select-box">
+						<select class="select" id="sel_Sub" name="pid" onchange="SetSubID(this);">
+							<option value="0" >无</option>
+							{foreach name="catelist" item="vo" }
+							<option value="{$vo.id}" >{$vo.name}</option>
+							{/foreach}
+						</select>
+						</span>
+					</div>
+				</div>
+				<div class="row cl">
+					<label class="form-label col-xs-4 col-sm-3">栏目名称：</label>
+					<div class="formControls col-xs-8 col-sm-9">
+						<input type="text" class="input-text" value="" placeholder="请输入2-6个字符" id="name" name="name">
+					</div>
+				</div>
+				<div class="row cl">
+			       <div class="col-9 col-offset-3">
+					   <a onclick="cate_add()" class="btn btn-primary radius" href="javascript:;"> 保存并发布</a>
+					   <a onClick="layer_close();" class="btn btn-default radius" >&nbsp;&nbsp;取消&nbsp;&nbsp;</a>
+				   </div>
+		        </div>
+	</form>
+</div>
+</body>
+{include file="public/footer" /}
+
+<script type="text/javascript">
+
+	function cate_add(){
+        var pid = $('#sel_Sub option:selected').val();
+        var name = $('#name').val();
+        $.ajax({
+            url: "{:url('cate_add_ajax')}",
+            type: 'post',
+            data:{'pid':pid,'name':name},
+
+            dataType: 'json',
+            success:function (data) {
+                layer.msg(data,{icon:2,time:1500});
+            },error: function (XmlHttpRequest, textStatus, errorThrown) {
+                layer.msg('添加成功！', {icon: 1, time: 1300}, function () {
+                    var index = parent.layer.getFrameIndex(window.name);
+                    parent.location.reload(); //刷新父页面
+                    parent.layer.close(index);
+                });
+            }
+        });
+
+
+    }
+
+
+</script>

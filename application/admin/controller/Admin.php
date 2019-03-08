@@ -1,8 +1,9 @@
 <?php
 namespace app\admin\controller;
-use think\Controller;
+use think\Request;
+
 use app\admin\validate;
-class Admin extends Controller{
+class Admin extends Common {
     //    生成盐
     public function salt(){
         $str="ad38vh3hv9ejFJbBDHG%WNtSOQWQBw!@#3rcjvu9830jsi*vnsFocjFsou8EFRW2EFCDSFWe#rfgvGBAVB@544225242SVF3rH";
@@ -13,7 +14,9 @@ class Admin extends Controller{
         return $salt;
     }
 
+
     public function index(){
+        $this->auto();
         $data=db("user")->select();
         foreach($data as $k=>$v){
             $data[$k]['time']=date('Y-m-d H:i:s', $v['time']);
@@ -24,6 +27,7 @@ class Admin extends Controller{
 
     //   add
     public function adminAdd(){
+        $this->auto();
        return $this->fetch();
     }
     public function ajaxAdd(){
@@ -36,6 +40,10 @@ class Admin extends Controller{
 
            if($data['password']!=$data['password2']){
                return "两次密码输入不一致";
+           }
+           $repeat=db("user")->where('username',$data['username'])->select();
+           if(count($repeat)>0){
+               return "该用户名已存在";
            }
            $code['username']=$data['username'];
            $code['salt']=$this->salt();
@@ -53,7 +61,7 @@ class Admin extends Controller{
 
 //    edit
     public function adminEdit(){
-
+        $this->auto();
             $data=db("user")->field('userid,username')->where('userid',input('id'))->find();
 
             $this->assign("data",$data);

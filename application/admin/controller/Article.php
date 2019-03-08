@@ -1,12 +1,11 @@
 <?php
 namespace app\admin\controller;
 use app\admin\model\Article as ArticleModel ;
-use think\Controller;
 use think\Request;
 use think\Image;
 use think\paginator;
 use app\admin\validate\Article as ArticleValidate;
-class Article extends Controller
+class Article extends Common
 {
     /*
      *获取新闻列表  可共享
@@ -76,7 +75,7 @@ class Article extends Controller
        }
     }
     /* 添加 */
-    public function article_add(){
+    public function articleAdd(){
         return $this->fetch();
     }
     public function articleSave(Request $request){
